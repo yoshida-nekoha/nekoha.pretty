@@ -1,0 +1,17 @@
+(footprint "TH_4mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f8ffe1ea-aef8-403f-9ccb-41d87d7b5205)
+  )
+  (fp_text value "TH_4mm" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8272cc3d-9aa8-441e-9259-08095766949c)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3ac70573-a9da-4829-a2aa-7591c2154eec)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers F&B.Cu *.Mask) (tstamp a408c580-1885-44ee-bcdf-40f7664b00a8))
+)

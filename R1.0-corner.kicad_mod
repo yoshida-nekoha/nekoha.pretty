@@ -1,0 +1,17 @@
+(footprint "R1.0-corner" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 1 1 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6a312aa9-30d6-4fe7-b1f6-ae1f6d1467e0)
+  )
+  (fp_text value "R1.0" (at 1 -1) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 56bcedf2-6347-490c-8772-4da0526d8ce0)
+  )
+  (fp_text user "${REFERENCE}" (at 1 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a831024e-3423-4944-9523-ff41cb6ec6a7)
+  )
+  (fp_arc (start 0 1) (mid 0.292893 0.292893) (end 1 0) (layer "Edge.Cuts") (width 0.2) (tstamp a52189e7-ac9b-48e7-9877-b5a4682382a5))
+)
