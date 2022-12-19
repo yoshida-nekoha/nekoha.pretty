@@ -1,0 +1,13 @@
+(footprint "R2-corner" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 08f50920-dc79-4209-b7f7-3eefe30460db)
+  )
+  (fp_text value "R2-corner" (at 0 -1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 605516bf-6dd4-4bfe-8824-e95f4fb84466)
+  )
+  (fp_arc (start 0 2) (mid 0.585786 0.585786) (end 2 0) (layer "Edge.Cuts") (width 0.2) (tstamp 77dd4af9-dfa4-48e6-a71e-c73b549433e6))
+)

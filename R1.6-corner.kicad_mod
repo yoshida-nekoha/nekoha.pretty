@@ -1,0 +1,17 @@
+(footprint "R1.6-corner" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e10f6fc8-753f-4a98-9d92-86e2dbf4eae9)
+  )
+  (fp_text value "R1.6-corner" (at 0 -0.6 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 23f282aa-2ac9-4135-9e1d-6f789213d7b5)
+  )
+  (fp_arc (start -1.6 0) (mid -1.131371 -1.131371) (end 0 -1.6) (layer "Edge.Cuts") (width 0.2) (tstamp e06102b0-ec88-4f0c-8a3d-dd651ec67ea8))
+  (fp_line (start -1.6 0) (end 0 0) (layer "B.Fab") (width 0.1) (tstamp 5c0b67f7-6d6b-42f2-9130-4430b28aec09))
+  (fp_line (start 0 0) (end 0 -1.6) (layer "B.Fab") (width 0.1) (tstamp b0aca9ae-d5bf-443c-af21-3c570ff463bf))
+  (fp_line (start 0 0) (end -1.6 0) (layer "F.Fab") (width 0.1) (tstamp c409770a-b70e-4923-85c5-ab0bfcc348c1))
+  (fp_line (start 0 -1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp f9b34bbf-12d2-4b5d-8091-fcfd076b24e2))
+)
