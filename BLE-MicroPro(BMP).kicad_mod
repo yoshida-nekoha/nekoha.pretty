@@ -1,310 +1,3534 @@
-(footprint "BLE-MicroPro(BMP)" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5F85C4CB)
-  (property "Sheetfile" "03-40m.kicad_sch")
-  (property "Sheetname" "")
-  (attr through_hole)
-  (fp_text reference "U1" (at 0 -5 90) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5f41db20-de8d-4696-b0c4-f50f705660e1)
-  )
-  (fp_text value "BLEProMicro(BMP)" (at -0.1 0.05 90) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp bf673746-4ef5-4630-9a31-7bf73f154c85)
-  )
-  (fp_text user "VCC" (at -3.718 -7.018 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 011e50a3-7110-4d1d-ac96-06d5546895cb)
-  )
-  (fp_text user "GND" (at 1.931 -16.936 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 04f67c00-3eaa-430c-a5b5-95205c862379)
-  )
-  (fp_text user "GND" (at -3.718 -12.018 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 0c6074da-b530-4c56-bf21-69573537d5b2)
-  )
-  (fp_text user "15/B1" (at -4.318 5.782 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 11314b28-22b2-4b77-9090-0b53205fe353)
-  )
-  (fp_text user "RST" (at -3.718 -9.468 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 36dd5e61-e81f-4f08-b191-9a6347b0dcc4)
-  )
-  (fp_text user "GND" (at 2.056 -9.268 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 36f47f2d-9998-4321-b85f-dd04fa61a99e)
-  )
-  (fp_text user "E6/7" (at 2.306 8.332 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 46af740c-dd7d-4826-8423-5fa10dcb4c04)
-  )
-  (fp_text user "USB-C" (at 0.05 -18.95 180) (layer "B.SilkS")
-    (effects (font (size 0.75 0.75) (thickness 0.12)) (justify mirror))
-    (tstamp 52883672-dfdd-4608-b467-4dfc027efd6e)
-  )
-  (fp_text user "D7/6" (at 2.306 5.782 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 6d18b811-8364-4d03-a902-30d6b6851f15)
-  )
-  (fp_text user "+" (at -3.633 -17.086 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 6de180e1-d86c-4300-8a68-d4b2bd4c289d)
-  )
-  (fp_text user "D2/RX1" (at 2.856 -11.818 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 76162fe2-1762-4e04-952c-f5c6baad6aa8)
-  )
-  (fp_text user "A0/F7" (at -4.318 3.232 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 764e1f37-e090-4a74-98ab-851dfca35a1c)
-  )
-  (fp_text user "SDA/D1/2" (at 3.556 -4.318 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 765eb35f-f0db-4a6f-8570-080b25507bab)
-  )
-  (fp_text user "B4/8" (at 2.306 10.882 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 82319280-43dc-40a3-ac9a-042fe754e01f)
-  )
-  (fp_text user "C6/5" (at 2.306 3.232 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp 90eea8f7-de3d-4655-b87c-52ba4c6feb49)
-  )
-  (fp_text user "GND" (at 2.056 -6.818 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp aeb573d8-7e2a-4c03-b4af-f8e2053a6d21)
-  )
-  (fp_text user "A1/F6" (at -4.318 0.682 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp b1d44d7f-6a48-4c47-ad12-2062d08ce0d6)
-  )
-  (fp_text user "D4/4" (at 2.306 0.682 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp b6cdf2c3-d53b-492b-b6b5-675c46d76952)
-  )
-  (fp_text user "A3/F4" (at -4.318 -4.318 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp d162aaf6-e3e2-4a73-ad92-945e32653962)
-  )
-  (fp_text user "B5/9" (at 2.306 13.382 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp d1ce3885-8b01-4ed9-8846-e2b5fb15ce0c)
-  )
-  (fp_text user "D3/TX0" (at 2.856 -14.368 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp dd4c42f9-d90c-46ef-a272-1f08e6eb7a93)
-  )
-  (fp_text user "A2/F5" (at -4.318 -1.818 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp dde1f4fd-7254-4b37-8546-8e9dd3534d07)
-  )
-  (fp_text user "14/B3" (at -4.318 8.332 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp e0265aca-9b23-4f3d-839a-00101c3717e1)
-  )
-  (fp_text user "SCL/D0/3" (at 3.556 -1.818 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp f8992098-858b-4bc4-8352-4f0c79afb2d1)
-  )
-  (fp_text user "10/B6" (at -4.318 13.382 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp fa6b0654-9321-4450-a423-305f6b2dd973)
-  )
-  (fp_text user "RAW" (at -3.718 -14.568 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp fbb83ebb-6f48-4d20-8253-9ea2ad2b68ba)
-  )
-  (fp_text user "16/B2" (at -4.318 10.882 unlocked) (layer "B.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)) (justify mirror))
-    (tstamp ffe02483-e5b3-4364-94aa-8bf9f665a4ac)
-  )
-  (fp_text user "USB-C" (at -0.05 -18.95 180) (layer "F.SilkS")
-    (effects (font (size 0.75 0.75) (thickness 0.12)))
-    (tstamp 01bc35a2-f5c0-445b-8338-774179ef8f00)
-  )
-  (fp_text user "GND" (at -4.995 -11.95 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 06ff1d46-bdf3-41e6-aed5-5412d8bf1cac)
-  )
-  (fp_text user "10/B6" (at -4.395 13.45 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 0c77672f-4d71-4334-ab8c-540033a24b65)
-  )
-  (fp_text user "GND" (at 4.955 -6.9 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 1d5896a3-810b-4f4a-9848-68596e6037d1)
-  )
-  (fp_text user "SCL/D0/3" (at 3.455 -1.9 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 2548b11b-0a2d-428d-92ca-bc4b4f262c40)
-  )
-  (fp_text user "15/B1" (at -4.395 5.85 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 2a4dce27-e083-4912-a270-f59c92d4a920)
-  )
-  (fp_text user "14/B3" (at -4.395 8.4 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 3ba37944-3b5f-4b3e-9ace-ac6b12b03b4a)
-  )
-  (fp_text user "A2/F5" (at -4.395 -1.75 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 4cf376a9-c860-489b-835d-3c073ce7f246)
-  )
-  (fp_text user "E6/7" (at 4.705 8.25 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 5373ca07-3bba-4e78-95d7-99381a9b79ed)
-  )
-  (fp_text user "SDA/D1/2" (at 3.455 -4.4 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 5cc37e53-86d9-4aa6-be6e-8f3d40c132eb)
-  )
-  (fp_text user "B5/9" (at 4.705 13.3 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 628a2bbc-1b7d-4dce-bc3e-77eeedccc134)
-  )
-  (fp_text user "D4/4" (at 4.705 0.6 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 6df7c3cf-27e5-4ab3-89bf-8c381b4960b5)
-  )
-  (fp_text user "B4/8" (at 4.705 10.8 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 6fc7ea0b-0b32-4178-91d6-fba0c6650807)
-  )
-  (fp_text user "D7/6" (at 4.705 5.7 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 7da6932e-cdfb-4141-9e1f-711e61c4cbbb)
-  )
-  (fp_text user "GND" (at 5.08 -17.018 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 84479968-06fc-4935-a4fb-95b24af89d01)
-  )
-  (fp_text user "D2/RX1" (at 4.155 -11.9 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp 988cc840-eb1d-437a-b7c5-5d31c6dc42b6)
-  )
-  (fp_text user "+" (at -5.08 -17.018 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp a5c8410c-198f-4b21-8983-26b0d8253899)
-  )
-  (fp_text user "A3/F4" (at -4.395 -4.25 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp ba4aafca-b5e6-495a-9d04-a221b044eded)
-  )
-  (fp_text user "A0/F7" (at -4.395 3.3 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp bcbbdc06-cb84-457c-94f3-c2f05ab7bb4a)
-  )
-  (fp_text user "D3/TX0" (at 4.155 -14.45 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp c6865965-3ad9-491e-ba65-0ed4e59cd50b)
-  )
-  (fp_text user "RST" (at -4.995 -9.4 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp cf03124c-14ca-4159-988e-0eae352a8b1f)
-  )
-  (fp_text user "C6/5" (at 4.705 3.15 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp d8298959-e00d-474b-bb94-5034109cd938)
-  )
-  (fp_text user "RAW" (at -4.995 -14.5 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp da854d95-ce15-4567-8165-1d8ccca9721a)
-  )
-  (fp_text user "VCC" (at -4.995 -6.95 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp e47e8759-b646-4744-a849-124df271862a)
-  )
-  (fp_text user "A1/F6" (at -4.395 0.75 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp f1bcd193-8cbe-45a8-ba35-17aa65fe2b97)
-  )
-  (fp_text user "GND" (at 4.955 -9.35 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp f86e7be0-0f33-4256-be1d-77625c8d38f7)
-  )
-  (fp_text user "16/B2" (at -4.395 10.95 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.75 0.67) (thickness 0.125)))
-    (tstamp f9c670dc-ac1e-4cef-95fc-78058ab00173)
-  )
-  (fp_line (start 0.25 -20.55) (end -0.25 -20.55) (layer "B.SilkS") (width 0.15) (tstamp 08556339-2323-4cd7-8e99-5ca32679e2b2))
-  (fp_line (start 3.75 -21.2) (end 3.75 -19.9) (layer "B.SilkS") (width 0.15) (tstamp 08a86f4f-fcbe-434f-8d30-411964779b4c))
-  (fp_line (start 3.75 -19.9) (end -3.75 -19.9) (layer "B.SilkS") (width 0.15) (tstamp 33687143-475f-44e5-8009-18c726c463ad))
-  (fp_line (start -3.75 -21.2) (end 3.75 -21.2) (layer "B.SilkS") (width 0.15) (tstamp 5f72e1d7-57b3-46b7-8694-779835a6bfb8))
-  (fp_line (start 0.5 -20.85) (end -0.5 -20.85) (layer "B.SilkS") (width 0.15) (tstamp 6fc238e0-e41c-4586-aeab-d7e95b3181a1))
-  (fp_line (start 0 -20.2) (end 0.5 -20.85) (layer "B.SilkS") (width 0.15) (tstamp 6fcecc6c-da78-4b34-a8a6-03f87086fe0d))
-  (fp_line (start -0.5 -20.85) (end 0 -20.2) (layer "B.SilkS") (width 0.15) (tstamp 953c9838-4904-43bb-b7d2-919219e72163))
-  (fp_line (start 0.35 -20.7) (end -0.35 -20.7) (layer "B.SilkS") (width 0.15) (tstamp a58caec3-b733-4eb2-bcdf-0fdbf84a487a))
-  (fp_line (start -3.75 -19.9) (end -3.75 -21.2) (layer "B.SilkS") (width 0.15) (tstamp a8470a91-48b6-47c1-89d6-c21114718c73))
-  (fp_line (start 0.15 -20.4) (end -0.15 -20.4) (layer "B.SilkS") (width 0.15) (tstamp e836ff6f-7675-424b-92d3-4c6d09b17703))
-  (fp_line (start 3.75 -19.9) (end -3.75 -19.9) (layer "B.SilkS") (width 0.15) (tstamp eebb97ed-65b6-4f74-a2d8-afb8ad333cc9))
-  (fp_line (start 8.75 -15.6) (end 7.95 -15.6) (layer "F.SilkS") (width 0.15) (tstamp 06f1dc65-cd51-4d0f-b1df-b1c08afbe4cd))
-  (fp_line (start 0 -20.2) (end -0.5 -20.85) (layer "F.SilkS") (width 0.15) (tstamp 097a46b0-9441-4e54-ba5d-46004abf17c8))
-  (fp_line (start 3.75 -19.9) (end 3.75 -21.2) (layer "F.SilkS") (width 0.15) (tstamp 0d8a657b-7f02-4e03-8a0e-720505328f35))
-  (fp_line (start -3.75 -19.9) (end 3.75 -19.9) (layer "F.SilkS") (width 0.15) (tstamp 1571501e-887c-4c6b-b303-d473bf3c4ffe))
-  (fp_line (start -0.25 -20.55) (end 0.25 -20.55) (layer "F.SilkS") (width 0.15) (tstamp 21a2f3bc-42b0-4f25-ba82-3717a61b9780))
-  (fp_line (start -0.35 -20.7) (end 0.35 -20.7) (layer "F.SilkS") (width 0.15) (tstamp 22a62f11-eff9-4182-9a19-28219f94c1aa))
-  (fp_line (start 0.5 -20.85) (end 0 -20.2) (layer "F.SilkS") (width 0.15) (tstamp 56231e01-4342-4bcd-a296-6fed0a49683a))
-  (fp_line (start -8.75 13.7) (end -8.75 14.6) (layer "F.SilkS") (width 0.15) (tstamp 587fae04-0996-4c75-ba28-51269729975d))
-  (fp_line (start -8.75 -15.6) (end -8.75 -14.75) (layer "F.SilkS") (width 0.15) (tstamp 80377b08-b74d-44ec-a809-5bb66f898953))
-  (fp_line (start 3.75 -21.2) (end -3.75 -21.2) (layer "F.SilkS") (width 0.15) (tstamp 912de05d-3661-4d00-a070-4de95aee48ae))
-  (fp_line (start -0.5 -20.85) (end 0.5 -20.85) (layer "F.SilkS") (width 0.15) (tstamp 977fca3c-3e22-4a1a-89be-10e26bffd433))
-  (fp_line (start -8.75 14.6) (end -7.9 14.6) (layer "F.SilkS") (width 0.15) (tstamp 989cf735-fe73-45f3-950d-cd1f599c439c))
-  (fp_line (start -3.75 -21.2) (end -3.75 -19.9) (layer "F.SilkS") (width 0.15) (tstamp acb93d8f-5d31-4d72-ab7a-a1e9dc4e74be))
-  (fp_line (start 8.75 14.6) (end 7.89 14.6) (layer "F.SilkS") (width 0.15) (tstamp bd8b9acf-8df4-4014-86bc-f5aa668df158))
-  (fp_line (start 8.75 -15.6) (end 8.75 -14.75) (layer "F.SilkS") (width 0.15) (tstamp c5468f0c-51d2-479b-8062-c74d898708af))
-  (fp_line (start -3.75 -19.9) (end 3.75 -19.9) (layer "F.SilkS") (width 0.15) (tstamp d3cc4a67-f06b-4141-a1fe-9cb921efaab1))
-  (fp_line (start -8.75 -15.6) (end -7.9 -15.6) (layer "F.SilkS") (width 0.15) (tstamp dd1b4dd2-259a-4896-ad70-107eb8f9c508))
-  (fp_line (start -0.15 -20.4) (end 0.15 -20.4) (layer "F.SilkS") (width 0.15) (tstamp efdf61e7-d934-46b6-91d1-08de3cee5c64))
-  (fp_line (start 8.75 13.75) (end 8.75 14.6) (layer "F.SilkS") (width 0.15) (tstamp f103bdc1-eeb2-4c1a-a7be-36919749fae3))
-  (fp_line (start 3.75 -19.6) (end -3.75 -19.6) (layer "B.Fab") (width 0.15) (tstamp 1716c09d-7cb9-4142-8876-abc2107ad8d3))
-  (fp_line (start -3.76 -18.3) (end -8.9 -18.3) (layer "B.Fab") (width 0.15) (tstamp 3cc643c6-26d8-439e-a6b1-c57981b930a8))
-  (fp_line (start -8.9 14.75) (end 8.9 14.75) (layer "B.Fab") (width 0.15) (tstamp 67ffb675-2111-45cc-a896-faaf0cc2b324))
-  (fp_line (start 8.9 -18.3) (end 3.75 -18.3) (layer "B.Fab") (width 0.15) (tstamp 8a24f235-9715-4cda-8239-a2c55d123822))
-  (fp_line (start -8.9 -18.3) (end -8.9 14.75) (layer "B.Fab") (width 0.15) (tstamp b29d4a5a-d71b-4d49-9079-cf5233d60f5a))
-  (fp_line (start 3.75 -18.3) (end -3.75 -18.3) (layer "B.Fab") (width 0.15) (tstamp dc851732-b989-4990-bc4e-0323c2005614))
-  (fp_line (start 3.75 -19.6) (end 3.75 -18.299039) (layer "B.Fab") (width 0.15) (tstamp e156bda8-112f-4d03-991c-089a872874dc))
-  (fp_line (start 8.9 14.75) (end 8.9 -18.3) (layer "B.Fab") (width 0.15) (tstamp e5e5b5da-dda4-48d1-af7d-8d10d2ff6e44))
-  (fp_line (start -3.75 -19.6) (end -3.75 -18.3) (layer "B.Fab") (width 0.15) (tstamp f0679244-f553-4de8-88fb-ef31c366c732))
-  (fp_line (start -3.75 -18.3) (end 3.75 -18.3) (layer "F.Fab") (width 0.15) (tstamp 27722ac8-1be9-4f4d-9551-b3e112e190ba))
-  (fp_line (start -8.9 14.75) (end -8.9 -18.3) (layer "F.Fab") (width 0.15) (tstamp 3078c31d-1880-4ebd-a09b-80b0c5ae8ce3))
-  (fp_line (start 8.9 14.75) (end -8.9 14.75) (layer "F.Fab") (width 0.15) (tstamp 3ae31cfa-8695-4c68-9b48-cdd2ae4f4f3f))
-  (fp_line (start -3.75 -19.6) (end 3.75 -19.6) (layer "F.Fab") (width 0.15) (tstamp 45013fec-28e3-4e5f-b83e-1cf1fe4b953b))
-  (fp_line (start 8.9 -18.3) (end 8.9 14.75) (layer "F.Fab") (width 0.15) (tstamp 537383df-3254-47a0-bc80-44390966f6cf))
-  (fp_line (start -3.75 -19.6) (end -3.75 -18.299039) (layer "F.Fab") (width 0.15) (tstamp 6c8b15df-17e6-4a61-a58d-9aff6a9636ff))
-  (fp_line (start 3.76 -18.3) (end 8.9 -18.3) (layer "F.Fab") (width 0.15) (tstamp cc61de84-de39-4e3f-8fb4-f08ab41c2b81))
-  (fp_line (start -8.9 -18.3) (end -3.75 -18.3) (layer "F.Fab") (width 0.15) (tstamp cd5b4e21-5285-4b7b-a4ed-4bf86ae0eaf9))
-  (fp_line (start 3.75 -19.6) (end 3.75 -18.3) (layer "F.Fab") (width 0.15) (tstamp d9392940-c1e5-48c1-b09b-a4c97bd1c192))
-  (pad "0" thru_hole circle (at 7.62 -17.018) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 5f5ddfb4-77a3-4797-b33c-2e51e3a0746c))
-  (pad "1" thru_hole circle (at 7.6114 -14.478) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 65f069eb-6ebe-45f3-be05-d0e406086b68))
-  (pad "2" thru_hole circle (at 7.6114 -11.938) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp e60859d0-508a-48ea-9377-dea29bc51e55))
-  (pad "3" thru_hole circle (at 7.6114 -9.398) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp b5b13e02-77ee-42cb-bf7d-0d3ba40b94d0))
-  (pad "4" thru_hole circle (at 7.6114 -6.858) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 3bb9b71a-6478-4b0f-b621-a045431bd503))
-  (pad "5" thru_hole circle (at 7.6114 -4.318) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 71ba5648-ac04-478d-915f-22fed39a5ea6))
-  (pad "6" thru_hole circle (at 7.6114 -1.778) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp b3023c21-3cd8-40b7-9846-b05a9aee1325))
-  (pad "7" thru_hole circle (at 7.6114 0.762) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 22d3b240-573d-4375-9bb6-c76918becb7b))
-  (pad "8" thru_hole circle (at 7.6114 3.302) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp be46f9c7-da52-43a4-9747-f6c8a4324f22))
-  (pad "9" thru_hole circle (at 7.6114 5.842) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 68b32527-d920-4eec-bd05-c42c59cf419f))
-  (pad "10" thru_hole circle (at 7.6114 8.382) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 35c6ff19-a908-4a63-9eb3-f42d3d214500))
-  (pad "11" thru_hole circle (at 7.6114 10.922) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 44f52104-c702-4730-8181-f2c6067f3e90))
-  (pad "12" thru_hole circle (at 7.6114 13.462) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 2039b70c-b89f-4d70-8b94-4fa1f9fb0d02))
-  (pad "13" thru_hole circle (at -7.6086 13.462) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 60eaaceb-c036-410e-b28c-8d37bc6b5d73))
-  (pad "14" thru_hole circle (at -7.6086 10.922) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 96434d25-b715-4fe2-9e18-db612712b62a))
-  (pad "15" thru_hole circle (at -7.6086 8.382) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp d9fe5a65-faa9-4488-b28e-0ee40be161a0))
-  (pad "16" thru_hole circle (at -7.6086 5.842) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 2e084925-b069-421d-ae18-19ee89fc3522))
-  (pad "17" thru_hole circle (at -7.6086 3.302) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 4624a448-d39f-4f01-a7c4-36247351c6ad))
-  (pad "18" thru_hole circle (at -7.6086 0.762) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 492b078b-f19d-403b-a120-168cdfd8655f))
-  (pad "19" thru_hole circle (at -7.6086 -1.778) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 0d337901-da6c-4f6b-8790-ac13735e8eb3))
-  (pad "20" thru_hole circle (at -7.6086 -4.318) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp dcef5686-da7e-43a3-a76d-dcdf563db5c3))
-  (pad "21" thru_hole circle (at -7.6086 -6.858) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp c788a59a-6e3a-42d1-b65f-296df6e90b26))
-  (pad "22" thru_hole circle (at -7.6086 -9.398) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 3083dae3-2f53-498a-9afc-8fa01ca8c28b))
-  (pad "23" thru_hole circle (at -7.6086 -11.938) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp e5b3706a-a544-458f-9fa5-3d9023ff079b))
-  (pad "24" thru_hole circle (at -7.6086 -14.478) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 7b152c82-6977-451d-aaff-9b56bf39515c))
-  (pad "25" thru_hole circle (at -7.62 -17.018) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask) (tstamp 1acb68ee-7091-4874-a981-f0c18159dbca))
-  (model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/ProMicro.step"
-    (offset (xyz 0 1.8 2.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
-  )
+(footprint "BLE-MicroPro(BMP)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U1"
+		(at 0 -5 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f41db20-de8d-4696-b0c4-f50f705660e1")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "U1" 90
+			(polygon
+				(pts
+					(xy 0.344413 -4.749896) (xy -0.694839 -4.749896) (xy -0.694839 -4.910852) (xy 0.493157 -4.910852)
+					(xy 0.493157 -4.077739) (xy -0.694839 -4.077739) (xy -0.694839 -4.238695) (xy 0.344413 -4.238695)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.694839 -5.272575) (xy -0.694839 -5.636741) (xy 0.493157 -5.636741) (xy 0.493157 -5.475785)
+					(xy -0.546095 -5.475785) (xy -0.546095 -5.272575)
+				)
+			)
+		)
+	)
+	(property "Value" "BLEProMicro(BMP)"
+		(at -0.1 0.05 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf673746-4ef5-4630-9a31-7bf73f154c85")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "BLEProMicro(BMP)" 90
+			(polygon
+				(pts
+					(xy 0.393157 7.268353) (xy 0.244413 7.268353) (xy 0.244413 7.182379) (xy -0.646095 7.182379) (xy -0.646095 7.268353)
+					(xy -0.794839 7.268353) (xy -0.794839 7.021423) (xy -0.646095 7.021423) (xy -0.278998 7.021423)
+					(xy -0.130254 7.021423) (xy 0.244413 7.021423) (xy 0.244413 6.510223) (xy -0.130254 6.510223) (xy -0.130254 7.021423)
+					(xy -0.278998 7.021423) (xy -0.278998 6.510223) (xy -0.646095 6.510223) (xy -0.646095 7.021423)
+					(xy -0.794839 7.021423) (xy -0.794839 6.349267) (xy 0.393157 6.349267)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.794839 6.031751) (xy 0.244413 6.031751) (xy 0.244413 5.372051) (xy 0.393157 5.372051) (xy 0.393157 6.192707)
+					(xy -0.794839 6.192707)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.794839 4.398988) (xy -0.646095 4.398988) (xy -0.646095 5.058688) (xy -0.278998 5.058688)
+					(xy -0.278998 4.398988) (xy -0.130254 4.398988) (xy -0.130254 5.058688) (xy 0.244413 5.058688)
+					(xy 0.244413 4.398988) (xy 0.393157 4.398988) (xy 0.393157 5.219644) (xy -0.794839 5.219644)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.020833 4.085624) (xy 0.393157 4.085624) (xy 0.393157 4.24658) (xy -0.794839 4.24658) (xy -0.794839 4.085624)
+					(xy -0.646095 4.085624) (xy -0.169577 4.085624) (xy -0.169577 3.563433) (xy -0.646095 3.563433)
+					(xy -0.646095 4.085624) (xy -0.794839 4.085624) (xy -0.794839 3.402477) (xy -0.020833 3.402477)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.419682 3.239323) (xy -0.419682 2.442114) (xy -0.270938 2.442114) (xy -0.270938 3.078367)
+					(xy 0.393157 3.078367) (xy 0.393157 3.239323)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.393157 2.298499) (xy -0.419682 2.298499) (xy -0.419682 2.137543) (xy -0.270938 2.137543)
+					(xy 0.244413 2.137543) (xy 0.244413 1.646615) (xy -0.270938 1.646615) (xy -0.270938 2.137543) (xy -0.419682 2.137543)
+					(xy -0.419682 1.485659) (xy 0.393157 1.485659)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.794839 0.397069) (xy 0.393157 0.397069) (xy 0.393157 0.558025) (xy -0.646095 0.558025) (xy -0.646095 0.783216)
+					(xy 0.393157 0.783216) (xy 0.393157 0.944173) (xy -0.646095 0.944173) (xy -0.646095 1.169364) (xy 0.393157 1.169364)
+					(xy 0.393157 1.33032) (xy -0.794839 1.33032)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.575997 0.224389) (xy -0.724741 0.224389) (xy -0.724741 0.063433) (xy -0.575997 0.063433)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.393157 0.224389) (xy -0.419682 0.224389) (xy -0.419682 0.063433) (xy 0.393157 0.063433)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.419682 -0.893265) (xy -0.270938 -0.893265) (xy -0.270938 -0.264829) (xy 0.244413 -0.264829)
+					(xy 0.244413 -0.893265) (xy 0.393157 -0.893265) (xy 0.393157 -0.103873) (xy -0.419682 -0.103873)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.419682 -1.03688) (xy -0.419682 -1.834089) (xy -0.270938 -1.834089) (xy -0.270938 -1.197836)
+					(xy 0.393157 -1.197836) (xy 0.393157 -1.03688)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.393157 -1.977704) (xy -0.419682 -1.977704) (xy -0.419682 -2.13866) (xy -0.270938 -2.13866)
+					(xy 0.244413 -2.13866) (xy 0.244413 -2.629588) (xy -0.270938 -2.629588) (xy -0.270938 -2.13866)
+					(xy -0.419682 -2.13866) (xy -0.419682 -2.790544) (xy 0.393157 -2.790544)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.872997 -3.418492) (xy -0.830004 -3.383509) (xy -0.784983 -3.35122) (xy -0.737936 -3.321628)
+					(xy -0.68886 -3.29473) (xy -0.637758 -3.270527) (xy -0.584628 -3.24902) (xy -0.562808 -3.241172)
+					(xy -0.507483 -3.223652) (xy -0.451263 -3.209101) (xy -0.394148 -3.197519) (xy -0.336139 -3.188908)
+					(xy -0.277236 -3.183266) (xy -0.217438 -3.180593) (xy -0.193269 -3.180355) (xy -0.133037 -3.18184)
+					(xy -0.0737 -3.186295) (xy -0.015257 -3.193718) (xy 0.042291 -3.204112) (xy 0.098945 -3.217475)
+					(xy 0.154705 -3.233807) (xy 0.176758 -3.241172) (xy 0.230699 -3.261601) (xy 0.282613 -3.284725)
+					(xy 0.332499 -3.310545) (xy 0.380357 -3.33906) (xy 0.426189 -3.37027) (xy 0.469993 -3.404175) (xy 0.486946 -3.418492)
+					(xy 0.486946 -3.240683) (xy 0.444043 -3.209536) (xy 0.399291 -3.180667) (xy 0.35269 -3.154076)
+					(xy 0.304241 -3.129763) (xy 0.253944 -3.107727) (xy 0.201798 -3.08797) (xy 0.180422 -3.080704)
+					(xy 0.125832 -3.06438) (xy 0.069835 -3.050823) (xy 0.012431 -3.040032) (xy -0.04638 -3.032008)
+					(xy -0.106598 -3.026751) (xy -0.155787 -3.024538) (xy -0.193269 -3.02404) (xy -0.243072 -3.024925)
+					(xy -0.291974 -3.027582) (xy -0.351834 -3.033392) (xy -0.410288 -3.041969) (xy -0.467335 -3.053313)
+					(xy -0.522974 -3.067424) (xy -0.566472 -3.080704) (xy -0.619357 -3.099551) (xy -0.670394 -3.120675)
+					(xy -0.719583 -3.144078) (xy -0.766923 -3.169758) (xy -0.812414 -3.197716) (xy -0.856057 -3.227951)
+					(xy -0.872997 -3.240683)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.393157 -3.533042) (xy 0.244413 -3.533042) (xy 0.244413 -3.619016) (xy -0.646095 -3.619016)
+					(xy -0.646095 -3.533042) (xy -0.794839 -3.533042) (xy -0.794839 -3.779972) (xy -0.646095 -3.779972)
+					(xy -0.278998 -3.779972) (xy -0.130254 -3.779972) (xy 0.244413 -3.779972) (xy 0.244413 -4.291172)
+					(xy -0.130254 -4.291172) (xy -0.130254 -3.779972) (xy -0.278998 -3.779972) (xy -0.278998 -4.291172)
+					(xy -0.646095 -4.291172) (xy -0.646095 -3.779972) (xy -0.794839 -3.779972) (xy -0.794839 -4.452128)
+					(xy 0.393157 -4.452128)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.794839 -5.54194) (xy 0.393157 -5.54194) (xy 0.393157 -5.380983) (xy -0.646095 -5.380983)
+					(xy -0.646095 -5.155792) (xy 0.393157 -5.155792) (xy 0.393157 -4.994836) (xy -0.646095 -4.994836)
+					(xy -0.646095 -4.769644) (xy 0.393157 -4.769644) (xy 0.393157 -4.608688) (xy -0.794839 -4.608688)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.020833 -5.875575) (xy 0.393157 -5.875575) (xy 0.393157 -5.714619) (xy -0.794839 -5.714619)
+					(xy -0.794839 -5.875575) (xy -0.646095 -5.875575) (xy -0.169577 -5.875575) (xy -0.169577 -6.397766)
+					(xy -0.646095 -6.397766) (xy -0.646095 -5.875575) (xy -0.794839 -5.875575) (xy -0.794839 -6.558723)
+					(xy -0.020833 -6.558723)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.872997 -6.88039) (xy -0.830093 -6.911537) (xy -0.785341 -6.940406) (xy -0.738741 -6.966998)
+					(xy -0.690292 -6.991311) (xy -0.639994 -7.013346) (xy -0.587848 -7.033104) (xy -0.566472 -7.040369)
+					(xy -0.511959 -7.056694) (xy -0.456038 -7.070251) (xy -0.39871 -7.081042) (xy -0.339975 -7.089065)
+					(xy -0.279832 -7.094322) (xy -0.230705 -7.096536) (xy -0.193269 -7.097034) (xy -0.143405 -7.096148)
+					(xy -0.094442 -7.093492) (xy -0.034505 -7.087682) (xy 0.024024 -7.079105) (xy 0.081147 -7.067761)
+					(xy 0.136863 -7.05365) (xy 0.180422 -7.040369) (xy 0.233307 -7.021523) (xy 0.284344 -7.000398)
+					(xy 0.333533 -6.976996) (xy 0.380873 -6.951316) (xy 0.426364 -6.923358) (xy 0.470007 -6.893122)
+					(xy 0.486946 -6.88039) (xy 0.486946 -6.702582) (xy 0.443954 -6.737559) (xy 0.398933 -6.769829)
+					(xy 0.351885 -6.799393) (xy 0.30281 -6.826249) (xy 0.251708 -6.850397) (xy 0.198578 -6.871839)
+					(xy 0.176758 -6.879658) (xy 0.121356 -6.897248) (xy 0.06506 -6.911858) (xy 0.007869 -6.923485)
+					(xy -0.050215 -6.932132) (xy -0.109195 -6.937796) (xy -0.169069 -6.94048) (xy -0.193269 -6.940718)
+					(xy -0.253424 -6.939228) (xy -0.312685 -6.934755) (xy -0.371052 -6.927302) (xy -0.428524 -6.916866)
+					(xy -0.485102 -6.90345) (xy -0.540785 -6.887052) (xy -0.562808 -6.879658) (xy -0.616749 -6.859299)
+					(xy -0.668663 -6.836233) (xy -0.718549 -6.81046) (xy -0.766408 -6.78198) (xy -0.812239 -6.750792)
+					(xy -0.856043 -6.716897) (xy -0.872997 -6.702582)
+				)
+			)
+		)
+	)
+	(property "Footprint" "BLE-MicroPro(BMP)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "febfc956-3917-4cf8-b888-a0ebec1346c2")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 1.27 1.27)
+			)
+		)
+		(render_cache "BLE-MicroPro(BMP)" 0
+			(polygon
+				(pts
+					(xy -8.488925 0.62631) (xy -9.656164 0.62631) (xy -9.656164 0.437405) (xy -9.546978 0.437405) (xy -9.342564 0.437405)
+					(xy -8.693339 0.437405) (xy -8.693339 -0.038423) (xy -9.342564 -0.038423) (xy -9.342564 0.437405)
+					(xy -9.546978 0.437405) (xy -9.546978 -0.227328) (xy -9.342564 -0.227328) (xy -8.693339 -0.227328)
+					(xy -8.693339 -0.693541) (xy -9.342564 -0.693541) (xy -9.342564 -0.227328) (xy -9.546978 -0.227328)
+					(xy -9.546978 -0.693541) (xy -9.656164 -0.693541) (xy -9.656164 -0.882446) (xy -8.488925 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy -8.08568 -0.882446) (xy -8.08568 0.437405) (xy -7.247861 0.437405) (xy -7.247861 0.62631) (xy -8.290094 0.62631)
+					(xy -8.290094 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy -6.012071 -0.882446) (xy -6.012071 -0.693541) (xy -6.84989 -0.693541) (xy -6.84989 -0.227328)
+					(xy -6.012071 -0.227328) (xy -6.012071 -0.038423) (xy -6.84989 -0.038423) (xy -6.84989 0.437405)
+					(xy -6.012071 0.437405) (xy -6.012071 0.62631) (xy -7.054304 0.62631) (xy -7.054304 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.798661 0.189565) (xy -5.798661 0.00066) (xy -5.064135 0.00066) (xy -5.064135 0.189565)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.655569 -0.882446) (xy -3.655569 0.62631) (xy -3.859983 0.62631) (xy -3.859983 -0.693541)
+					(xy -4.145977 -0.693541) (xy -4.145977 0.62631) (xy -4.350391 0.62631) (xy -4.350391 -0.693541)
+					(xy -4.636385 -0.693541) (xy -4.636385 0.62631) (xy -4.840799 0.62631) (xy -4.840799 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.436266 -0.604517) (xy -3.436266 -0.793422) (xy -3.231852 -0.793422) (xy -3.231852 -0.604517)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.436266 0.62631) (xy -3.436266 -0.405996) (xy -3.231852 -0.405996) (xy -3.231852 0.62631)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.016844 -0.405996) (xy -2.016844 -0.217092) (xy -2.814959 -0.217092) (xy -2.814959 0.437405)
+					(xy -2.016844 0.437405) (xy -2.016844 0.62631) (xy -3.019373 0.62631) (xy -3.019373 -0.405996)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.834453 -0.405996) (xy -0.821998 -0.405996) (xy -0.821998 -0.217092) (xy -1.630039 -0.217092)
+					(xy -1.630039 0.62631) (xy -1.834453 0.62631)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.392699 0.62631) (xy -0.639607 0.62631) (xy -0.639607 0.437405) (xy -0.435193 0.437405) (xy 0.188285 0.437405)
+					(xy 0.188285 -0.217092) (xy -0.435193 -0.217092) (xy -0.435193 0.437405) (xy -0.639607 0.437405)
+					(xy -0.639607 -0.405996) (xy 0.392699 -0.405996)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.66199 0.10054) (xy 0.794393 0.10054) (xy 0.794393 0.62631) (xy 0.589979 0.62631) (xy 0.589979 -0.088363)
+					(xy 0.794393 -0.088363) (xy 1.457576 -0.088363) (xy 1.457576 -0.693541) (xy 0.794393 -0.693541)
+					(xy 0.794393 -0.088363) (xy 0.589979 -0.088363) (xy 0.589979 -0.882446) (xy 1.66199 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.869196 -0.405996) (xy 2.881651 -0.405996) (xy 2.881651 -0.217092) (xy 2.07361 -0.217092)
+					(xy 2.07361 0.62631) (xy 1.869196 0.62631)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.096348 0.62631) (xy 3.064041 0.62631) (xy 3.064041 0.437405) (xy 3.268455 0.437405) (xy 3.891934 0.437405)
+					(xy 3.891934 -0.217092) (xy 3.268455 -0.217092) (xy 3.268455 0.437405) (xy 3.064041 0.437405) (xy 3.064041 -0.405996)
+					(xy 4.096348 -0.405996)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.893843 -0.981706) (xy 4.849414 -0.927105) (xy 4.808408 -0.869929) (xy 4.770825 -0.810178)
+					(xy 4.736665 -0.747853) (xy 4.705927 -0.682953) (xy 4.678613 -0.615478) (xy 4.668646 -0.587767)
+					(xy 4.646395 -0.517503) (xy 4.627916 -0.446104) (xy 4.613207 -0.373569) (xy 4.602271 -0.299897)
+					(xy 4.595105 -0.22509) (xy 4.591711 -0.149147) (xy 4.591409 -0.118452) (xy 4.593295 -0.041957)
+					(xy 4.598952 0.0334) (xy 4.60838 0.107623) (xy 4.62158 0.18071) (xy 4.638551 0.25266) (xy 4.659293 0.323475)
+					(xy 4.668646 0.351483) (xy 4.694591 0.419988) (xy 4.723959 0.485918) (xy 4.75675 0.549273) (xy 4.792964 0.610054)
+					(xy 4.832601 0.66826) (xy 4.87566 0.723891) (xy 4.893843 0.745422) (xy 4.668026 0.745422) (xy 4.628469 0.690935)
+					(xy 4.591805 0.6341) (xy 4.558034 0.574917) (xy 4.527156 0.513387) (xy 4.499171 0.449509) (xy 4.474079 0.383283)
+					(xy 4.464852 0.356136) (xy 4.44412 0.286807) (xy 4.426903 0.215691) (xy 4.413199 0.142787) (xy 4.403008 0.068097)
+					(xy 4.396332 -0.00838) (xy 4.393521 -0.070849) (xy 4.392888 -0.118452) (xy 4.394013 -0.181701)
+					(xy 4.397386 -0.243806) (xy 4.404765 -0.31983) (xy 4.415658 -0.394066) (xy 4.430065 -0.466515)
+					(xy 4.447986 -0.537177) (xy 4.464852 -0.592419) (xy 4.488787 -0.659584) (xy 4.515615 -0.724401)
+					(xy 4.545336 -0.78687) (xy 4.57795 -0.846992) (xy 4.613456 -0.904766) (xy 4.651856 -0.960193) (xy 4.668026 -0.981706)
+				)
+			)
+			(polygon
+				(pts
+					(xy 6.20656 0.62631) (xy 5.039321 0.62631) (xy 5.039321 0.437405) (xy 5.148507 0.437405) (xy 5.352922 0.437405)
+					(xy 6.002146 0.437405) (xy 6.002146 -0.038423) (xy 5.352922 -0.038423) (xy 5.352922 0.437405) (xy 5.148507 0.437405)
+					(xy 5.148507 -0.227328) (xy 5.352922 -0.227328) (xy 6.002146 -0.227328) (xy 6.002146 -0.693541)
+					(xy 5.352922 -0.693541) (xy 5.352922 -0.227328) (xy 5.148507 -0.227328) (xy 5.148507 -0.693541)
+					(xy 5.039321 -0.693541) (xy 5.039321 -0.882446) (xy 6.20656 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy 7.590621 -0.882446) (xy 7.590621 0.62631) (xy 7.386207 0.62631) (xy 7.386207 -0.693541) (xy 7.100213 -0.693541)
+					(xy 7.100213 0.62631) (xy 6.895799 0.62631) (xy 6.895799 -0.693541) (xy 6.609805 -0.693541) (xy 6.609805 0.62631)
+					(xy 6.405391 0.62631) (xy 6.405391 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy 8.881935 0.10054) (xy 8.014338 0.10054) (xy 8.014338 0.62631) (xy 7.809924 0.62631) (xy 7.809924 -0.088363)
+					(xy 8.014338 -0.088363) (xy 8.677521 -0.088363) (xy 8.677521 -0.693541) (xy 8.014338 -0.693541)
+					(xy 8.014338 -0.088363) (xy 7.809924 -0.088363) (xy 7.809924 -0.882446) (xy 8.881935 -0.882446)
+				)
+			)
+			(polygon
+				(pts
+					(xy 9.290453 -0.981706) (xy 9.33001 -0.927219) (xy 9.366674 -0.870383) (xy 9.400445 -0.811201)
+					(xy 9.431323 -0.74967) (xy 9.459308 -0.685793) (xy 9.4844 -0.619567) (xy 9.493627 -0.592419) (xy 9.514359 -0.523187)
+					(xy 9.531576 -0.452168) (xy 9.54528 -0.379362) (xy 9.555471 -0.304768) (xy 9.562147 -0.228387)
+					(xy 9.564958 -0.165996) (xy 9.565591 -0.118452) (xy 9.564466 -0.055125) (xy 9.561093 0.007057)
+					(xy 9.553714 0.083178) (xy 9.542821 0.157511) (xy 9.528414 0.230057) (xy 9.510493 0.300816) (xy 9.493627 0.356136)
+					(xy 9.469692 0.4233) (xy 9.442864 0.488117) (xy 9.413143 0.550587) (xy 9.380529 0.610708) (xy 9.345023 0.668482)
+					(xy 9.306623 0.723909) (xy 9.290453 0.745422) (xy 9.064636 0.745422) (xy 9.109058 0.690821) (xy 9.150041 0.633645)
+					(xy 9.187586 0.573895) (xy 9.221693 0.511569) (xy 9.252362 0.446669) (xy 9.279593 0.379194) (xy 9.289523 0.351483)
+					(xy 9.311863 0.281122) (xy 9.330417 0.209626) (xy 9.345184 0.136994) (xy 9.356165 0.063226) (xy 9.363359 -0.011677)
+					(xy 9.366767 -0.087717) (xy 9.36707 -0.118452) (xy 9.365177 -0.194849) (xy 9.359497 -0.270111)
+					(xy 9.350031 -0.344236) (xy 9.336778 -0.417226) (xy 9.319739 -0.48908) (xy 9.298913 -0.559798)
+					(xy 9.289523 -0.587767) (xy 9.263667 -0.656272) (xy 9.234374 -0.722202) (xy 9.201642 -0.785557)
+					(xy 9.165472 -0.846338) (xy 9.125864 -0.904544) (xy 9.082817 -0.960175) (xy 9.064636 -0.981706)
+				)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c44de0e-eb0d-48c5-b7fb-997277f0f5e0")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 1.27 1.27)
+			)
+		)
+		(render_cache "" 0)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb3c535-5230-43f5-89ff-5d983baaf82c")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 1.27 1.27)
+			)
+		)
+		(render_cache "" 0)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.75 -21.2)
+		(end 3.75 -21.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "5f72e1d7-57b3-46b7-8694-779835a6bfb8")
+	)
+	(fp_line
+		(start -3.75 -19.9)
+		(end -3.75 -21.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a8470a91-48b6-47c1-89d6-c21114718c73")
+	)
+	(fp_line
+		(start -0.5 -20.85)
+		(end 0 -20.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "953c9838-4904-43bb-b7d2-919219e72163")
+	)
+	(fp_line
+		(start 0 -20.2)
+		(end 0.5 -20.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6fcecc6c-da78-4b34-a8a6-03f87086fe0d")
+	)
+	(fp_line
+		(start 0.15 -20.4)
+		(end -0.15 -20.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e836ff6f-7675-424b-92d3-4c6d09b17703")
+	)
+	(fp_line
+		(start 0.25 -20.55)
+		(end -0.25 -20.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "08556339-2323-4cd7-8e99-5ca32679e2b2")
+	)
+	(fp_line
+		(start 0.35 -20.7)
+		(end -0.35 -20.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "a58caec3-b733-4eb2-bcdf-0fdbf84a487a")
+	)
+	(fp_line
+		(start 0.5 -20.85)
+		(end -0.5 -20.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6fc238e0-e41c-4586-aeab-d7e95b3181a1")
+	)
+	(fp_line
+		(start 3.75 -21.2)
+		(end 3.75 -19.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "08a86f4f-fcbe-434f-8d30-411964779b4c")
+	)
+	(fp_line
+		(start 3.75 -19.9)
+		(end -3.75 -19.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "33687143-475f-44e5-8009-18c726c463ad")
+	)
+	(fp_line
+		(start 3.75 -19.9)
+		(end -3.75 -19.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "eebb97ed-65b6-4f74-a2d8-afb8ad333cc9")
+	)
+	(fp_line
+		(start -8.75 -15.6)
+		(end -8.75 -14.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80377b08-b74d-44ec-a809-5bb66f898953")
+	)
+	(fp_line
+		(start -8.75 -15.6)
+		(end -7.9 -15.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd1b4dd2-259a-4896-ad70-107eb8f9c508")
+	)
+	(fp_line
+		(start -8.75 13.7)
+		(end -8.75 14.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "587fae04-0996-4c75-ba28-51269729975d")
+	)
+	(fp_line
+		(start -8.75 14.6)
+		(end -7.9 14.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "989cf735-fe73-45f3-950d-cd1f599c439c")
+	)
+	(fp_line
+		(start -3.75 -21.2)
+		(end -3.75 -19.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acb93d8f-5d31-4d72-ab7a-a1e9dc4e74be")
+	)
+	(fp_line
+		(start -3.75 -19.9)
+		(end 3.75 -19.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1571501e-887c-4c6b-b303-d473bf3c4ffe")
+	)
+	(fp_line
+		(start -3.75 -19.9)
+		(end 3.75 -19.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3cc4a67-f06b-4141-a1fe-9cb921efaab1")
+	)
+	(fp_line
+		(start -0.5 -20.85)
+		(end 0.5 -20.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "977fca3c-3e22-4a1a-89be-10e26bffd433")
+	)
+	(fp_line
+		(start -0.35 -20.7)
+		(end 0.35 -20.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22a62f11-eff9-4182-9a19-28219f94c1aa")
+	)
+	(fp_line
+		(start -0.25 -20.55)
+		(end 0.25 -20.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21a2f3bc-42b0-4f25-ba82-3717a61b9780")
+	)
+	(fp_line
+		(start -0.15 -20.4)
+		(end 0.15 -20.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efdf61e7-d934-46b6-91d1-08de3cee5c64")
+	)
+	(fp_line
+		(start 0 -20.2)
+		(end -0.5 -20.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "097a46b0-9441-4e54-ba5d-46004abf17c8")
+	)
+	(fp_line
+		(start 0.5 -20.85)
+		(end 0 -20.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56231e01-4342-4bcd-a296-6fed0a49683a")
+	)
+	(fp_line
+		(start 3.75 -21.2)
+		(end -3.75 -21.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "912de05d-3661-4d00-a070-4de95aee48ae")
+	)
+	(fp_line
+		(start 3.75 -19.9)
+		(end 3.75 -21.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d8a657b-7f02-4e03-8a0e-720505328f35")
+	)
+	(fp_line
+		(start 8.75 -15.6)
+		(end 7.95 -15.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06f1dc65-cd51-4d0f-b1df-b1c08afbe4cd")
+	)
+	(fp_line
+		(start 8.75 -15.6)
+		(end 8.75 -14.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5468f0c-51d2-479b-8062-c74d898708af")
+	)
+	(fp_line
+		(start 8.75 13.75)
+		(end 8.75 14.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f103bdc1-eeb2-4c1a-a7be-36919749fae3")
+	)
+	(fp_line
+		(start 8.75 14.6)
+		(end 7.89 14.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd8b9acf-8df4-4014-86bc-f5aa668df158")
+	)
+	(fp_line
+		(start -8.9 -18.3)
+		(end -8.9 14.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "b29d4a5a-d71b-4d49-9079-cf5233d60f5a")
+	)
+	(fp_line
+		(start -8.9 14.75)
+		(end 8.9 14.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "67ffb675-2111-45cc-a896-faaf0cc2b324")
+	)
+	(fp_line
+		(start -3.76 -18.3)
+		(end -8.9 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "3cc643c6-26d8-439e-a6b1-c57981b930a8")
+	)
+	(fp_line
+		(start -3.75 -19.6)
+		(end -3.75 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f0679244-f553-4de8-88fb-ef31c366c732")
+	)
+	(fp_line
+		(start 3.75 -19.6)
+		(end -3.75 -19.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1716c09d-7cb9-4142-8876-abc2107ad8d3")
+	)
+	(fp_line
+		(start 3.75 -19.6)
+		(end 3.75 -18.299039)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e156bda8-112f-4d03-991c-089a872874dc")
+	)
+	(fp_line
+		(start 3.75 -18.3)
+		(end -3.75 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "dc851732-b989-4990-bc4e-0323c2005614")
+	)
+	(fp_line
+		(start 8.9 -18.3)
+		(end 3.75 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "8a24f235-9715-4cda-8239-a2c55d123822")
+	)
+	(fp_line
+		(start 8.9 14.75)
+		(end 8.9 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e5e5b5da-dda4-48d1-af7d-8d10d2ff6e44")
+	)
+	(fp_line
+		(start -8.9 -18.3)
+		(end -3.75 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd5b4e21-5285-4b7b-a4ed-4bf86ae0eaf9")
+	)
+	(fp_line
+		(start -8.9 14.75)
+		(end -8.9 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3078c31d-1880-4ebd-a09b-80b0c5ae8ce3")
+	)
+	(fp_line
+		(start -3.75 -19.6)
+		(end -3.75 -18.299039)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c8b15df-17e6-4a61-a58d-9aff6a9636ff")
+	)
+	(fp_line
+		(start -3.75 -19.6)
+		(end 3.75 -19.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45013fec-28e3-4e5f-b83e-1cf1fe4b953b")
+	)
+	(fp_line
+		(start -3.75 -18.3)
+		(end 3.75 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27722ac8-1be9-4f4d-9551-b3e112e190ba")
+	)
+	(fp_line
+		(start 3.75 -19.6)
+		(end 3.75 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9392940-c1e5-48c1-b09b-a4c97bd1c192")
+	)
+	(fp_line
+		(start 3.76 -18.3)
+		(end 8.9 -18.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc61de84-de39-4e3f-8fb4-f08ab41c2b81")
+	)
+	(fp_line
+		(start 8.9 -18.3)
+		(end 8.9 14.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "537383df-3254-47a0-bc80-44390966f6cf")
+	)
+	(fp_line
+		(start 8.9 14.75)
+		(end -8.9 14.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ae31cfa-8695-4c68-9b48-cdd2ae4f4f3f")
+	)
+	(fp_text user "VCC"
+		(at -3.718 -7.018 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "011e50a3-7110-4d1d-ac96-06d5546895cb")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "VCC" 0
+			(polygon
+				(pts
+					(xy -3.395296 -7.539129) (xy -3.395296 -7.427571) (xy -3.321984 -7.427571) (xy -3.321984 -6.648131)
+					(xy -2.766908 -6.648131) (xy -2.766908 -7.539129) (xy -2.874749 -7.539129) (xy -2.874749 -6.759689)
+					(xy -3.214144 -6.759689) (xy -3.214144 -7.539129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.019757 -7.539129) (xy -4.019757 -7.427571) (xy -3.577758 -7.427571) (xy -3.577758 -6.759689)
+					(xy -4.019757 -6.759689) (xy -4.019757 -6.648131) (xy -3.469917 -6.648131) (xy -3.469917 -7.539129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.671709 -7.539129) (xy -4.671709 -7.427571) (xy -4.22971 -7.427571) (xy -4.22971 -6.759689)
+					(xy -4.671709 -6.759689) (xy -4.671709 -6.648131) (xy -4.12187 -6.648131) (xy -4.12187 -7.539129)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 1.931 -16.936 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "04f67c00-3eaa-430c-a5b5-95205c862379")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 2.833161 -17.345571) (xy 2.833161 -16.677689) (xy 2.493766 -16.677689) (xy 2.493766 -16.958691)
+					(xy 2.665918 -16.958691) (xy 2.665918 -17.070248) (xy 2.385926 -17.070248) (xy 2.385926 -16.566131)
+					(xy 2.941002 -16.566131) (xy 2.941002 -17.457129) (xy 2.385926 -17.457129) (xy 2.385926 -17.345571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.755247 -16.677689) (xy 1.755247 -17.457129) (xy 1.647406 -17.457129) (xy 1.647406 -16.566131)
+					(xy 2.013966 -16.566131) (xy 2.013966 -17.345571) (xy 2.164844 -17.345571) (xy 2.164844 -16.566131)
+					(xy 2.272685 -16.566131) (xy 2.272685 -17.457129) (xy 1.906125 -17.457129) (xy 1.906125 -16.677689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.536947 -17.345571) (xy 1.479345 -17.345571) (xy 1.479345 -16.677689) (xy 1.536947 -16.677689)
+					(xy 1.536947 -16.566131) (xy 0.924269 -16.566131) (xy 0.924269 -16.677689) (xy 1.03211 -16.677689)
+					(xy 1.371505 -16.677689) (xy 1.371505 -17.345571) (xy 1.03211 -17.345571) (xy 1.03211 -16.677689)
+					(xy 0.924269 -16.677689) (xy 0.924269 -17.457129) (xy 1.536947 -17.457129)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -3.718 -12.018 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "0c6074da-b530-4c56-bf21-69573537d5b2")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy -2.815838 -12.427571) (xy -2.815838 -11.759689) (xy -3.155233 -11.759689) (xy -3.155233 -12.040691)
+					(xy -2.983081 -12.040691) (xy -2.983081 -12.152248) (xy -3.263073 -12.152248) (xy -3.263073 -11.648131)
+					(xy -2.707997 -11.648131) (xy -2.707997 -12.539129) (xy -3.263073 -12.539129) (xy -3.263073 -12.427571)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.893752 -11.759689) (xy -3.893752 -12.539129) (xy -4.001593 -12.539129) (xy -4.001593 -11.648131)
+					(xy -3.635033 -11.648131) (xy -3.635033 -12.427571) (xy -3.484155 -12.427571) (xy -3.484155 -11.648131)
+					(xy -3.376314 -11.648131) (xy -3.376314 -12.539129) (xy -3.742874 -12.539129) (xy -3.742874 -11.759689)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.112052 -12.427571) (xy -4.169654 -12.427571) (xy -4.169654 -11.759689) (xy -4.112052 -11.759689)
+					(xy -4.112052 -11.648131) (xy -4.72473 -11.648131) (xy -4.72473 -11.759689) (xy -4.616889 -11.759689)
+					(xy -4.277494 -11.759689) (xy -4.277494 -12.427571) (xy -4.616889 -12.427571) (xy -4.616889 -11.759689)
+					(xy -4.72473 -11.759689) (xy -4.72473 -12.539129) (xy -4.112052 -12.539129)
+				)
+			)
+		)
+	)
+	(fp_text user "15/B1"
+		(at -4.318 5.782 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "11314b28-22b2-4b77-9090-0b53205fe353")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "15/B1" 0
+			(polygon
+				(pts
+					(xy -2.87729 5.26087) (xy -3.121281 5.26087) (xy -3.121281 6.151868) (xy -3.01344 6.151868) (xy -3.01344 5.372428)
+					(xy -2.87729 5.372428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.972387 5.26087) (xy -3.972387 5.372428) (xy -3.535624 5.372428) (xy -3.535624 5.647751)
+					(xy -3.972387 5.647751) (xy -3.972387 6.151868) (xy -3.427784 6.151868) (xy -3.427784 6.04031)
+					(xy -3.864546 6.04031) (xy -3.864546 5.759308) (xy -3.427784 5.759308) (xy -3.427784 5.26087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.077609 6.151868) (xy -4.398349 5.26087) (xy -4.508971 5.26087) (xy -4.188231 6.151868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.602738 5.372428) (xy -4.660341 5.372428) (xy -4.660341 6.04031) (xy -4.602738 6.04031) (xy -4.602738 6.151868)
+					(xy -5.218526 6.151868) (xy -5.218526 6.04031) (xy -5.110685 6.04031) (xy -4.768181 6.04031) (xy -4.768181 5.759308)
+					(xy -5.110685 5.759308) (xy -5.110685 6.04031) (xy -5.218526 6.04031) (xy -5.218526 5.647751) (xy -5.110685 5.647751)
+					(xy -4.768181 5.647751) (xy -4.768181 5.372428) (xy -5.110685 5.372428) (xy -5.110685 5.647751)
+					(xy -5.218526 5.647751) (xy -5.218526 5.26087) (xy -4.602738 5.26087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.449099 5.26087) (xy -5.69309 5.26087) (xy -5.69309 6.151868) (xy -5.585249 6.151868) (xy -5.585249 5.372428)
+					(xy -5.449099 5.372428)
+				)
+			)
+		)
+	)
+	(fp_text user "RST"
+		(at -3.718 -9.468 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "36dd5e61-e81f-4f08-b191-9a6347b0dcc4")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "RST" 0
+			(polygon
+				(pts
+					(xy -2.755453 -9.098131) (xy -2.863294 -9.098131) (xy -2.863294 -9.402946) (xy -3.027755 -9.402946)
+					(xy -3.027755 -9.098131) (xy -3.321002 -9.098131) (xy -3.321002 -9.209689) (xy -3.135595 -9.209689)
+					(xy -3.135595 -9.402946) (xy -3.321002 -9.402946) (xy -3.321002 -9.514504) (xy -3.213162 -9.514504)
+					(xy -2.863294 -9.514504) (xy -2.863294 -9.877571) (xy -3.213162 -9.877571) (xy -3.213162 -9.514504)
+					(xy -3.321002 -9.514504) (xy -3.321002 -9.989129) (xy -2.755453 -9.989129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.978028 -9.989129) (xy -3.978028 -9.877571) (xy -3.538156 -9.877571) (xy -3.538156 -9.602248)
+					(xy -3.978028 -9.602248) (xy -3.978028 -9.098131) (xy -3.430316 -9.098131) (xy -3.430316 -9.209689)
+					(xy -3.870187 -9.209689) (xy -3.870187 -9.490691) (xy -3.430316 -9.490691) (xy -3.430316 -9.989129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.677928 -9.989129) (xy -4.677928 -9.877571) (xy -4.437046 -9.877571) (xy -4.437046 -9.098131)
+					(xy -4.329205 -9.098131) (xy -4.329205 -9.877571) (xy -4.080959 -9.877571) (xy -4.080959 -9.989129)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.056 -9.268 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "36f47f2d-9998-4321-b85f-dd04fa61a99e")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 2.958161 -9.677571) (xy 2.958161 -9.009689) (xy 2.618766 -9.009689) (xy 2.618766 -9.290691)
+					(xy 2.790918 -9.290691) (xy 2.790918 -9.402248) (xy 2.510926 -9.402248) (xy 2.510926 -8.898131)
+					(xy 3.066002 -8.898131) (xy 3.066002 -9.789129) (xy 2.510926 -9.789129) (xy 2.510926 -9.677571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.880247 -9.009689) (xy 1.880247 -9.789129) (xy 1.772406 -9.789129) (xy 1.772406 -8.898131)
+					(xy 2.138966 -8.898131) (xy 2.138966 -9.677571) (xy 2.289844 -9.677571) (xy 2.289844 -8.898131)
+					(xy 2.397685 -8.898131) (xy 2.397685 -9.789129) (xy 2.031125 -9.789129) (xy 2.031125 -9.009689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.661947 -9.677571) (xy 1.604345 -9.677571) (xy 1.604345 -9.009689) (xy 1.661947 -9.009689)
+					(xy 1.661947 -8.898131) (xy 1.049269 -8.898131) (xy 1.049269 -9.009689) (xy 1.15711 -9.009689)
+					(xy 1.496505 -9.009689) (xy 1.496505 -9.677571) (xy 1.15711 -9.677571) (xy 1.15711 -9.009689) (xy 1.049269 -9.009689)
+					(xy 1.049269 -9.789129) (xy 1.661947 -9.789129)
+				)
+			)
+		)
+	)
+	(fp_text user "E6/7"
+		(at 2.306 8.332 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "46af740c-dd7d-4826-8423-5fa10dcb4c04")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "E6/7" 0
+			(polygon
+				(pts
+					(xy 2.957951 7.81087) (xy 2.957951 7.922428) (xy 3.39995 7.922428) (xy 3.39995 8.197751) (xy 2.957951 8.197751)
+					(xy 2.957951 8.309308) (xy 3.39995 8.309308) (xy 3.39995 8.59031) (xy 2.957951 8.59031) (xy 2.957951 8.701868)
+					(xy 3.507791 8.701868) (xy 3.507791 7.81087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.855838 8.701868) (xy 2.300762 8.701868) (xy 2.300762 8.59031) (xy 2.408603 8.59031) (xy 2.747998 8.59031)
+					(xy 2.747998 8.238967) (xy 2.408603 8.238967) (xy 2.408603 8.59031) (xy 2.300762 8.59031) (xy 2.300762 8.127409)
+					(xy 2.747998 8.127409) (xy 2.747998 7.922428) (xy 2.300762 7.922428) (xy 2.300762 7.81087) (xy 2.855838 7.81087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.19554 8.701868) (xy 1.8748 7.81087) (xy 1.764178 7.81087) (xy 2.084917 8.701868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.659937 7.81087) (xy 1.106989 7.81087) (xy 1.106989 8.701868) (xy 1.214829 8.701868) (xy 1.214829 7.922428)
+					(xy 1.659937 7.922428)
+				)
+			)
+		)
+	)
+	(fp_text user "USB-C"
+		(at 0.05 -18.95 180)
+		(layer "B.SilkS")
+		(uuid "52883672-dfdd-4608-b467-4dfc027efd6e")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+			(justify mirror)
+		)
+		(render_cache "USB-C" 0
+			(polygon
+				(pts
+					(xy 1.289043 -18.691689) (xy 1.289043 -19.471129) (xy 1.168326 -19.471129) (xy 1.168326 -18.580131)
+					(xy 1.79316 -18.580131) (xy 1.79316 -19.471129) (xy 1.672443 -19.471129) (xy 1.672443 -18.691689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.424606 -19.471129) (xy 0.424606 -19.359571) (xy 0.917 -19.359571) (xy 0.917 -19.084248) (xy 0.424606 -19.084248)
+					(xy 0.424606 -18.580131) (xy 1.037717 -18.580131) (xy 1.037717 -18.691689) (xy 0.545324 -18.691689)
+					(xy 0.545324 -18.972691) (xy 1.037717 -18.972691) (xy 1.037717 -19.471129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.303523 -19.359571) (xy 0.239043 -19.359571) (xy 0.239043 -18.691689) (xy 0.303523 -18.691689)
+					(xy 0.303523 -18.580131) (xy -0.38579 -18.580131) (xy -0.38579 -18.691689) (xy -0.265073 -18.691689)
+					(xy 0.118326 -18.691689) (xy 0.118326 -18.972691) (xy -0.265073 -18.972691) (xy -0.265073 -18.691689)
+					(xy -0.38579 -18.691689) (xy -0.38579 -19.084248) (xy -0.265073 -19.084248) (xy 0.118326 -19.084248)
+					(xy 0.118326 -19.359571) (xy -0.265073 -19.359571) (xy -0.265073 -19.084248) (xy -0.38579 -19.084248)
+					(xy -0.38579 -19.471129) (xy 0.303523 -19.471129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.514934 -18.838052) (xy -0.514934 -18.94961) (xy -0.948709 -18.94961) (xy -0.948709 -18.838052)
+				)
+			)
+			(polygon
+				(pts
+					(xy -1.696092 -19.471129) (xy -1.696092 -19.359571) (xy -1.201317 -19.359571) (xy -1.201317 -18.691689)
+					(xy -1.696092 -18.691689) (xy -1.696092 -18.580131) (xy -1.0806 -18.580131) (xy -1.0806 -19.471129)
+				)
+			)
+		)
+	)
+	(fp_text user "D7/6"
+		(at 2.306 5.782 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "6d18b811-8364-4d03-a902-30d6b6851f15")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "D7/6" 0
+			(polygon
+				(pts
+					(xy 3.544774 5.372428) (xy 3.487172 5.372428) (xy 3.487172 6.04031) (xy 3.544774 6.04031) (xy 3.544774 6.151868)
+					(xy 2.932096 6.151868) (xy 2.932096 6.04031) (xy 3.039937 6.04031) (xy 3.379332 6.04031) (xy 3.379332 5.372428)
+					(xy 3.039937 5.372428) (xy 3.039937 6.04031) (xy 2.932096 6.04031) (xy 2.932096 5.26087) (xy 3.544774 5.26087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.818855 5.26087) (xy 2.265907 5.26087) (xy 2.265907 6.151868) (xy 2.373747 6.151868) (xy 2.373747 5.372428)
+					(xy 2.818855 5.372428)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.163794 6.151868) (xy 1.843054 5.26087) (xy 1.732431 5.26087) (xy 2.053171 6.151868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.633428 6.151868) (xy 1.078352 6.151868) (xy 1.078352 6.04031) (xy 1.186192 6.04031) (xy 1.525587 6.04031)
+					(xy 1.525587 5.688967) (xy 1.186192 5.688967) (xy 1.186192 6.04031) (xy 1.078352 6.04031) (xy 1.078352 5.577409)
+					(xy 1.525587 5.577409) (xy 1.525587 5.372428) (xy 1.078352 5.372428) (xy 1.078352 5.26087) (xy 1.633428 5.26087)
+				)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -3.633 -17.086 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "6de180e1-d86c-4300-8a68-d4b2bd4c289d")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "+" 0
+			(polygon
+				(pts
+					(xy -3.682584 -17.208525) (xy -3.920357 -17.208525) (xy -3.920357 -17.096967) (xy -3.682584 -17.096967)
+					(xy -3.682584 -16.821644) (xy -3.574743 -16.821644) (xy -3.574743 -17.096967) (xy -3.344334 -17.096967)
+					(xy -3.344334 -17.208525) (xy -3.574743 -17.208525) (xy -3.574743 -17.478169) (xy -3.682584 -17.478169)
+				)
+			)
+		)
+	)
+	(fp_text user "D2/RX1"
+		(at 2.856 -11.818 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "76162fe2-1762-4e04-952c-f5c6baad6aa8")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "D2/RX1" 0
+			(polygon
+				(pts
+					(xy 4.769636 -12.227571) (xy 4.712034 -12.227571) (xy 4.712034 -11.559689) (xy 4.769636 -11.559689)
+					(xy 4.769636 -11.448131) (xy 4.156958 -11.448131) (xy 4.156958 -11.559689) (xy 4.264799 -11.559689)
+					(xy 4.604194 -11.559689) (xy 4.604194 -12.227571) (xy 4.264799 -12.227571) (xy 4.264799 -11.559689)
+					(xy 4.156958 -11.559689) (xy 4.156958 -12.339129) (xy 4.769636 -12.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.038481 -12.339129) (xy 3.493878 -12.339129) (xy 3.493878 -11.840691) (xy 3.93064 -11.840691)
+					(xy 3.93064 -11.559689) (xy 3.493878 -11.559689) (xy 3.493878 -11.448131) (xy 4.038481 -11.448131)
+					(xy 4.038481 -11.952248) (xy 3.601718 -11.952248) (xy 3.601718 -12.227571) (xy 4.038481 -12.227571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.388656 -11.448131) (xy 3.067916 -12.339129) (xy 2.957293 -12.339129) (xy 3.278033 -11.448131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.85829 -11.448131) (xy 2.750449 -11.448131) (xy 2.750449 -11.752946) (xy 2.585988 -11.752946)
+					(xy 2.585988 -11.448131) (xy 2.29274 -11.448131) (xy 2.29274 -11.559689) (xy 2.478148 -11.559689)
+					(xy 2.478148 -11.752946) (xy 2.29274 -11.752946) (xy 2.29274 -11.864504) (xy 2.400581 -11.864504)
+					(xy 2.750449 -11.864504) (xy 2.750449 -12.227571) (xy 2.400581 -12.227571) (xy 2.400581 -11.864504)
+					(xy 2.29274 -11.864504) (xy 2.29274 -12.339129) (xy 2.85829 -12.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.725718 -12.07553) (xy 1.725718 -12.339129) (xy 1.617878 -12.339129) (xy 1.617878 -11.963972)
+					(xy 1.848287 -11.963972) (xy 1.848287 -11.81761) (xy 1.617878 -11.81761) (xy 1.617878 -11.448131)
+					(xy 1.725718 -11.448131) (xy 1.725718 -11.706052) (xy 2.075587 -11.706052) (xy 2.075587 -11.448131)
+					(xy 2.183427 -11.448131) (xy 2.183427 -11.81761) (xy 1.956127 -11.81761) (xy 1.956127 -11.963972)
+					(xy 2.183427 -11.963972) (xy 2.183427 -12.339129) (xy 2.075587 -12.339129) (xy 2.075587 -12.07553)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.382887 -12.339129) (xy 1.138896 -12.339129) (xy 1.138896 -11.448131) (xy 1.246736 -11.448131)
+					(xy 1.246736 -12.227571) (xy 1.382887 -12.227571)
+				)
+			)
+		)
+	)
+	(fp_text user "A0/F7"
+		(at -4.318 3.232 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "764e1f37-e090-4a74-98ab-851dfca35a1c")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "A0/F7" 0
+			(polygon
+				(pts
+					(xy -2.778777 3.601868) (xy -2.886618 3.601868) (xy -2.886618 3.291374) (xy -3.236486 3.291374)
+					(xy -3.236486 3.601868) (xy -3.344326 3.601868) (xy -3.344326 3.179816) (xy -3.236486 3.179816)
+					(xy -2.886618 3.179816) (xy -2.886618 2.822428) (xy -3.236486 2.822428) (xy -3.236486 3.179816)
+					(xy -3.344326 3.179816) (xy -3.344326 2.71087) (xy -2.778777 2.71087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.45364 3.601868) (xy -4.008716 3.601868) (xy -4.008716 3.49031) (xy -3.900875 3.49031) (xy -3.56148 3.49031)
+					(xy -3.56148 2.822428) (xy -3.900875 2.822428) (xy -3.900875 3.49031) (xy -4.008716 3.49031) (xy -4.008716 2.71087)
+					(xy -3.45364 2.71087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.113938 3.601868) (xy -4.434678 2.71087) (xy -4.5453 2.71087) (xy -4.22456 3.601868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.194144 2.71087) (xy -5.194144 2.822428) (xy -4.752145 2.822428) (xy -4.752145 3.097751)
+					(xy -5.194144 3.097751) (xy -5.194144 3.209308) (xy -4.752145 3.209308) (xy -4.752145 3.601868)
+					(xy -4.644304 3.601868) (xy -4.644304 2.71087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.301493 2.71087) (xy -5.854442 2.71087) (xy -5.854442 3.601868) (xy -5.746601 3.601868) (xy -5.746601 2.822428)
+					(xy -5.301493 2.822428)
+				)
+			)
+		)
+	)
+	(fp_text user "SDA/D1/2"
+		(at 3.556 -4.318 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "765eb35f-f0db-4a6f-8570-080b25507bab")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "SDA/D1/2" 0
+			(polygon
+				(pts
+					(xy 5.530021 -4.839129) (xy 5.530021 -4.727571) (xy 5.969892 -4.727571) (xy 5.969892 -4.452248)
+					(xy 5.530021 -4.452248) (xy 5.530021 -3.948131) (xy 6.077733 -3.948131) (xy 6.077733 -4.059689)
+					(xy 5.637861 -4.059689) (xy 5.637861 -4.340691) (xy 6.077733 -4.340691) (xy 6.077733 -4.839129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.421853 -4.727571) (xy 5.364251 -4.727571) (xy 5.364251 -4.059689) (xy 5.421853 -4.059689)
+					(xy 5.421853 -3.948131) (xy 4.809175 -3.948131) (xy 4.809175 -4.059689) (xy 4.917015 -4.059689)
+					(xy 5.25641 -4.059689) (xy 5.25641 -4.727571) (xy 4.917015 -4.727571) (xy 4.917015 -4.059689) (xy 4.809175 -4.059689)
+					(xy 4.809175 -4.839129) (xy 5.421853 -4.839129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.70117 -3.948131) (xy 4.59333 -3.948131) (xy 4.59333 -4.258625) (xy 4.243462 -4.258625) (xy 4.243462 -3.948131)
+					(xy 4.135621 -3.948131) (xy 4.135621 -4.370183) (xy 4.243462 -4.370183) (xy 4.59333 -4.370183)
+					(xy 4.59333 -4.727571) (xy 4.243462 -4.727571) (xy 4.243462 -4.370183) (xy 4.135621 -4.370183)
+					(xy 4.135621 -4.839129) (xy 4.70117 -4.839129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.031708 -3.948131) (xy 3.710968 -4.839129) (xy 3.600346 -4.839129) (xy 3.921086 -3.948131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.506579 -4.727571) (xy 3.448976 -4.727571) (xy 3.448976 -4.059689) (xy 3.506579 -4.059689)
+					(xy 3.506579 -3.948131) (xy 2.8939 -3.948131) (xy 2.8939 -4.059689) (xy 3.001741 -4.059689) (xy 3.341136 -4.059689)
+					(xy 3.341136 -4.727571) (xy 3.001741 -4.727571) (xy 3.001741 -4.059689) (xy 2.8939 -4.059689) (xy 2.8939 -4.839129)
+					(xy 3.506579 -4.839129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.660219 -4.839129) (xy 2.416227 -4.839129) (xy 2.416227 -3.948131) (xy 2.524068 -3.948131)
+					(xy 2.524068 -4.727571) (xy 2.660219 -4.727571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.125598 -3.948131) (xy 1.804858 -4.839129) (xy 1.694236 -4.839129) (xy 2.014975 -3.948131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.584759 -4.839129) (xy 1.040156 -4.839129) (xy 1.040156 -4.340691) (xy 1.476918 -4.340691)
+					(xy 1.476918 -4.059689) (xy 1.040156 -4.059689) (xy 1.040156 -3.948131) (xy 1.584759 -3.948131)
+					(xy 1.584759 -4.452248) (xy 1.147996 -4.452248) (xy 1.147996 -4.727571) (xy 1.584759 -4.727571)
+				)
+			)
+		)
+	)
+	(fp_text user "B4/8"
+		(at 2.306 10.882 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "82319280-43dc-40a3-ac9a-042fe754e01f")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "B4/8" 0
+			(polygon
+				(pts
+					(xy 3.544774 10.472428) (xy 3.487172 10.472428) (xy 3.487172 11.14031) (xy 3.544774 11.14031) (xy 3.544774 11.251868)
+					(xy 2.928987 11.251868) (xy 2.928987 11.14031) (xy 3.036827 11.14031) (xy 3.379332 11.14031) (xy 3.379332 10.859308)
+					(xy 3.036827 10.859308) (xy 3.036827 11.14031) (xy 2.928987 11.14031) (xy 2.928987 10.747751) (xy 3.036827 10.747751)
+					(xy 3.379332 10.747751) (xy 3.379332 10.472428) (xy 3.036827 10.472428) (xy 3.036827 10.747751)
+					(xy 2.928987 10.747751) (xy 2.928987 10.36087) (xy 3.544774 10.36087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.376856 10.829816) (xy 2.376856 10.36087) (xy 2.269016 10.36087) (xy 2.269016 11.251868) (xy 2.376856 11.251868)
+					(xy 2.376856 10.941374) (xy 2.824092 10.941374) (xy 2.824092 10.36087) (xy 2.716251 10.36087) (xy 2.716251 10.829816)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.163794 11.251868) (xy 1.843054 10.36087) (xy 1.732431 10.36087) (xy 2.053171 11.251868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.633428 11.251868) (xy 1.078352 11.251868) (xy 1.078352 11.14031) (xy 1.186192 11.14031) (xy 1.525587 11.14031)
+					(xy 1.525587 10.859308) (xy 1.186192 10.859308) (xy 1.186192 11.14031) (xy 1.078352 11.14031) (xy 1.078352 10.747751)
+					(xy 1.186192 10.747751) (xy 1.525587 10.747751) (xy 1.525587 10.472428) (xy 1.186192 10.472428)
+					(xy 1.186192 10.747751) (xy 1.078352 10.747751) (xy 1.078352 10.36087) (xy 1.633428 10.36087)
+				)
+			)
+		)
+	)
+	(fp_text user "C6/5"
+		(at 2.306 3.232 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "90eea8f7-de3d-4655-b87c-52ba4c6feb49")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "C6/5" 0
+			(polygon
+				(pts
+					(xy 2.957951 2.71087) (xy 2.957951 2.822428) (xy 3.39995 2.822428) (xy 3.39995 3.49031) (xy 2.957951 3.49031)
+					(xy 2.957951 3.601868) (xy 3.507791 3.601868) (xy 3.507791 2.71087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.855838 3.601868) (xy 2.300762 3.601868) (xy 2.300762 3.49031) (xy 2.408603 3.49031) (xy 2.747998 3.49031)
+					(xy 2.747998 3.138967) (xy 2.408603 3.138967) (xy 2.408603 3.49031) (xy 2.300762 3.49031) (xy 2.300762 3.027409)
+					(xy 2.747998 3.027409) (xy 2.747998 2.822428) (xy 2.300762 2.822428) (xy 2.300762 2.71087) (xy 2.855838 2.71087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.19554 3.601868) (xy 1.8748 2.71087) (xy 1.764178 2.71087) (xy 2.084917 3.601868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.110098 2.71087) (xy 1.110098 2.822428) (xy 1.54686 2.822428) (xy 1.54686 3.097751) (xy 1.110098 3.097751)
+					(xy 1.110098 3.601868) (xy 1.654701 3.601868) (xy 1.654701 3.49031) (xy 1.217938 3.49031) (xy 1.217938 3.209308)
+					(xy 1.654701 3.209308) (xy 1.654701 2.71087)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 2.056 -6.818 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "aeb573d8-7e2a-4c03-b4af-f8e2053a6d21")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 2.958161 -7.227571) (xy 2.958161 -6.559689) (xy 2.618766 -6.559689) (xy 2.618766 -6.840691)
+					(xy 2.790918 -6.840691) (xy 2.790918 -6.952248) (xy 2.510926 -6.952248) (xy 2.510926 -6.448131)
+					(xy 3.066002 -6.448131) (xy 3.066002 -7.339129) (xy 2.510926 -7.339129) (xy 2.510926 -7.227571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.880247 -6.559689) (xy 1.880247 -7.339129) (xy 1.772406 -7.339129) (xy 1.772406 -6.448131)
+					(xy 2.138966 -6.448131) (xy 2.138966 -7.227571) (xy 2.289844 -7.227571) (xy 2.289844 -6.448131)
+					(xy 2.397685 -6.448131) (xy 2.397685 -7.339129) (xy 2.031125 -7.339129) (xy 2.031125 -6.559689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.661947 -7.227571) (xy 1.604345 -7.227571) (xy 1.604345 -6.559689) (xy 1.661947 -6.559689)
+					(xy 1.661947 -6.448131) (xy 1.049269 -6.448131) (xy 1.049269 -6.559689) (xy 1.15711 -6.559689)
+					(xy 1.496505 -6.559689) (xy 1.496505 -7.227571) (xy 1.15711 -7.227571) (xy 1.15711 -6.559689) (xy 1.049269 -6.559689)
+					(xy 1.049269 -7.339129) (xy 1.661947 -7.339129)
+				)
+			)
+		)
+	)
+	(fp_text user "A1/F6"
+		(at -4.318 0.682 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "b1d44d7f-6a48-4c47-ad12-2062d08ce0d6")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "A1/F6" 0
+			(polygon
+				(pts
+					(xy -2.778777 1.051868) (xy -2.886618 1.051868) (xy -2.886618 0.741374) (xy -3.236486 0.741374)
+					(xy -3.236486 1.051868) (xy -3.344326 1.051868) (xy -3.344326 0.629816) (xy -3.236486 0.629816)
+					(xy -2.886618 0.629816) (xy -2.886618 0.272428) (xy -3.236486 0.272428) (xy -3.236486 0.629816)
+					(xy -3.344326 0.629816) (xy -3.344326 0.16087) (xy -2.778777 0.16087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.579317 0.16087) (xy -3.823309 0.16087) (xy -3.823309 1.051868) (xy -3.715468 1.051868) (xy -3.715468 0.272428)
+					(xy -3.579317 0.272428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.113938 1.051868) (xy -4.434678 0.16087) (xy -4.5453 0.16087) (xy -4.22456 1.051868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.194144 0.16087) (xy -5.194144 0.272428) (xy -4.752145 0.272428) (xy -4.752145 0.547751)
+					(xy -5.194144 0.547751) (xy -5.194144 0.659308) (xy -4.752145 0.659308) (xy -4.752145 1.051868)
+					(xy -4.644304 1.051868) (xy -4.644304 0.16087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.296257 1.051868) (xy -5.851333 1.051868) (xy -5.851333 0.94031) (xy -5.743492 0.94031) (xy -5.404097 0.94031)
+					(xy -5.404097 0.588967) (xy -5.743492 0.588967) (xy -5.743492 0.94031) (xy -5.851333 0.94031) (xy -5.851333 0.477409)
+					(xy -5.404097 0.477409) (xy -5.404097 0.272428) (xy -5.851333 0.272428) (xy -5.851333 0.16087)
+					(xy -5.296257 0.16087)
+				)
+			)
+		)
+	)
+	(fp_text user "D4/4"
+		(at 2.306 0.682 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "b6cdf2c3-d53b-492b-b6b5-675c46d76952")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "D4/4" 0
+			(polygon
+				(pts
+					(xy 3.544774 0.272428) (xy 3.487172 0.272428) (xy 3.487172 0.94031) (xy 3.544774 0.94031) (xy 3.544774 1.051868)
+					(xy 2.932096 1.051868) (xy 2.932096 0.94031) (xy 3.039937 0.94031) (xy 3.379332 0.94031) (xy 3.379332 0.272428)
+					(xy 3.039937 0.272428) (xy 3.039937 0.94031) (xy 2.932096 0.94031) (xy 2.932096 0.16087) (xy 3.544774 0.16087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.376856 0.629816) (xy 2.376856 0.16087) (xy 2.269016 0.16087) (xy 2.269016 1.051868) (xy 2.376856 1.051868)
+					(xy 2.376856 0.741374) (xy 2.824092 0.741374) (xy 2.824092 0.16087) (xy 2.716251 0.16087) (xy 2.716251 0.629816)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.163794 1.051868) (xy 1.843054 0.16087) (xy 1.732431 0.16087) (xy 2.053171 1.051868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.186192 0.629816) (xy 1.186192 0.16087) (xy 1.078352 0.16087) (xy 1.078352 1.051868) (xy 1.186192 1.051868)
+					(xy 1.186192 0.741374) (xy 1.633428 0.741374) (xy 1.633428 0.16087) (xy 1.525587 0.16087) (xy 1.525587 0.629816)
+				)
+			)
+		)
+	)
+	(fp_text user "A3/F4"
+		(at -4.318 -4.318 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d162aaf6-e3e2-4a73-ad92-945e32653962")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "A3/F4" 0
+			(polygon
+				(pts
+					(xy -2.778777 -3.948131) (xy -2.886618 -3.948131) (xy -2.886618 -4.258625) (xy -3.236486 -4.258625)
+					(xy -3.236486 -3.948131) (xy -3.344326 -3.948131) (xy -3.344326 -4.370183) (xy -3.236486 -4.370183)
+					(xy -2.886618 -4.370183) (xy -2.886618 -4.727571) (xy -3.236486 -4.727571) (xy -3.236486 -4.370183)
+					(xy -3.344326 -4.370183) (xy -3.344326 -4.839129) (xy -2.778777 -4.839129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.458876 -4.839129) (xy -4.001352 -4.839129) (xy -4.001352 -3.948131) (xy -3.458876 -3.948131)
+					(xy -3.458876 -4.059689) (xy -3.893511 -4.059689) (xy -3.893511 -4.340691) (xy -3.458876 -4.340691)
+					(xy -3.458876 -4.452248) (xy -3.893511 -4.452248) (xy -3.893511 -4.727571) (xy -3.458876 -4.727571)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.113938 -3.948131) (xy -4.434678 -4.839129) (xy -4.5453 -4.839129) (xy -4.22456 -3.948131)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.194144 -4.839129) (xy -5.194144 -4.727571) (xy -4.752145 -4.727571) (xy -4.752145 -4.452248)
+					(xy -5.194144 -4.452248) (xy -5.194144 -4.340691) (xy -4.752145 -4.340691) (xy -4.752145 -3.948131)
+					(xy -4.644304 -3.948131) (xy -4.644304 -4.839129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.743492 -4.370183) (xy -5.743492 -4.839129) (xy -5.851333 -4.839129) (xy -5.851333 -3.948131)
+					(xy -5.743492 -3.948131) (xy -5.743492 -4.258625) (xy -5.296257 -4.258625) (xy -5.296257 -4.839129)
+					(xy -5.404097 -4.839129) (xy -5.404097 -4.370183)
+				)
+			)
+		)
+	)
+	(fp_text user "B5/9"
+		(at 2.306 13.382 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "d1ce3885-8b01-4ed9-8846-e2b5fb15ce0c")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "B5/9" 0
+			(polygon
+				(pts
+					(xy 3.544774 12.972428) (xy 3.487172 12.972428) (xy 3.487172 13.64031) (xy 3.544774 13.64031) (xy 3.544774 13.751868)
+					(xy 2.928987 13.751868) (xy 2.928987 13.64031) (xy 3.036827 13.64031) (xy 3.379332 13.64031) (xy 3.379332 13.359308)
+					(xy 3.036827 13.359308) (xy 3.036827 13.64031) (xy 2.928987 13.64031) (xy 2.928987 13.247751) (xy 3.036827 13.247751)
+					(xy 3.379332 13.247751) (xy 3.379332 12.972428) (xy 3.036827 12.972428) (xy 3.036827 13.247751)
+					(xy 2.928987 13.247751) (xy 2.928987 12.86087) (xy 3.544774 12.86087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.269016 12.86087) (xy 2.269016 12.972428) (xy 2.705778 12.972428) (xy 2.705778 13.247751)
+					(xy 2.269016 13.247751) (xy 2.269016 13.751868) (xy 2.813619 13.751868) (xy 2.813619 13.64031)
+					(xy 2.376856 13.64031) (xy 2.376856 13.359308) (xy 2.813619 13.359308) (xy 2.813619 12.86087)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.163794 13.751868) (xy 1.843054 12.86087) (xy 1.732431 12.86087) (xy 2.053171 13.751868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.633428 13.441374) (xy 1.186192 13.441374) (xy 1.186192 13.64031) (xy 1.633428 13.64031) (xy 1.633428 13.751868)
+					(xy 1.078352 13.751868) (xy 1.078352 13.329816) (xy 1.186192 13.329816) (xy 1.525587 13.329816)
+					(xy 1.525587 12.972428) (xy 1.186192 12.972428) (xy 1.186192 13.329816) (xy 1.078352 13.329816)
+					(xy 1.078352 12.86087) (xy 1.633428 12.86087)
+				)
+			)
+		)
+	)
+	(fp_text user "D3/TX0"
+		(at 2.856 -14.368 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "dd4c42f9-d90c-46ef-a272-1f08e6eb7a93")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "D3/TX0" 0
+			(polygon
+				(pts
+					(xy 4.779128 -14.777571) (xy 4.721526 -14.777571) (xy 4.721526 -14.109689) (xy 4.779128 -14.109689)
+					(xy 4.779128 -13.998131) (xy 4.16645 -13.998131) (xy 4.16645 -14.109689) (xy 4.274291 -14.109689)
+					(xy 4.613686 -14.109689) (xy 4.613686 -14.777571) (xy 4.274291 -14.777571) (xy 4.274291 -14.109689)
+					(xy 4.16645 -14.109689) (xy 4.16645 -14.889129) (xy 4.779128 -14.889129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.053209 -14.889129) (xy 3.510734 -14.889129) (xy 3.510734 -13.998131) (xy 4.053209 -13.998131)
+					(xy 4.053209 -14.109689) (xy 3.618574 -14.109689) (xy 3.618574 -14.390691) (xy 4.053209 -14.390691)
+					(xy 4.053209 -14.502248) (xy 3.618574 -14.502248) (xy 3.618574 -14.777571) (xy 4.053209 -14.777571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.398148 -13.998131) (xy 3.077408 -14.889129) (xy 2.966785 -14.889129) (xy 3.287525 -13.998131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.281286 -14.889129) (xy 2.281286 -14.777571) (xy 2.522168 -14.777571) (xy 2.522168 -13.998131)
+					(xy 2.630009 -13.998131) (xy 2.630009 -14.777571) (xy 2.878255 -14.777571) (xy 2.878255 -14.889129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.716228 -14.62553) (xy 1.716228 -14.889129) (xy 1.608387 -14.889129) (xy 1.608387 -14.513972)
+					(xy 1.838796 -14.513972) (xy 1.838796 -14.36761) (xy 1.608387 -14.36761) (xy 1.608387 -13.998131)
+					(xy 1.716228 -13.998131) (xy 1.716228 -14.256052) (xy 2.066096 -14.256052) (xy 2.066096 -13.998131)
+					(xy 2.173936 -13.998131) (xy 2.173936 -14.36761) (xy 1.946637 -14.36761) (xy 1.946637 -14.513972)
+					(xy 2.173936 -14.513972) (xy 2.173936 -14.889129) (xy 2.066096 -14.889129) (xy 2.066096 -14.62553)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.499074 -13.998131) (xy 0.943998 -13.998131) (xy 0.943998 -14.109689) (xy 1.051838 -14.109689)
+					(xy 1.391233 -14.109689) (xy 1.391233 -14.777571) (xy 1.051838 -14.777571) (xy 1.051838 -14.109689)
+					(xy 0.943998 -14.109689) (xy 0.943998 -14.889129) (xy 1.499074 -14.889129)
+				)
+			)
+		)
+	)
+	(fp_text user "A2/F5"
+		(at -4.318 -1.818 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "dde1f4fd-7254-4b37-8546-8e9dd3534d07")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "A2/F5" 0
+			(polygon
+				(pts
+					(xy -2.778777 -1.448131) (xy -2.886618 -1.448131) (xy -2.886618 -1.758625) (xy -3.236486 -1.758625)
+					(xy -3.236486 -1.448131) (xy -3.344326 -1.448131) (xy -3.344326 -1.870183) (xy -3.236486 -1.870183)
+					(xy -2.886618 -1.870183) (xy -2.886618 -2.227571) (xy -3.236486 -2.227571) (xy -3.236486 -1.870183)
+					(xy -3.344326 -1.870183) (xy -3.344326 -2.339129) (xy -2.778777 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.464113 -2.339129) (xy -4.008716 -2.339129) (xy -4.008716 -1.840691) (xy -3.571953 -1.840691)
+					(xy -3.571953 -1.559689) (xy -4.008716 -1.559689) (xy -4.008716 -1.448131) (xy -3.464113 -1.448131)
+					(xy -3.464113 -1.952248) (xy -3.900875 -1.952248) (xy -3.900875 -2.227571) (xy -3.464113 -2.227571)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.113938 -1.448131) (xy -4.434678 -2.339129) (xy -4.5453 -2.339129) (xy -4.22456 -1.448131)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.194144 -2.339129) (xy -5.194144 -2.227571) (xy -4.752145 -2.227571) (xy -4.752145 -1.952248)
+					(xy -5.194144 -1.952248) (xy -5.194144 -1.840691) (xy -4.752145 -1.840691) (xy -4.752145 -1.448131)
+					(xy -4.644304 -1.448131) (xy -4.644304 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.851333 -2.339129) (xy -5.851333 -2.227571) (xy -5.41457 -2.227571) (xy -5.41457 -1.952248)
+					(xy -5.851333 -1.952248) (xy -5.851333 -1.448131) (xy -5.30673 -1.448131) (xy -5.30673 -1.559689)
+					(xy -5.743492 -1.559689) (xy -5.743492 -1.840691) (xy -5.30673 -1.840691) (xy -5.30673 -2.339129)
+				)
+			)
+		)
+	)
+	(fp_text user "14/B3"
+		(at -4.318 8.332 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "e0265aca-9b23-4f3d-839a-00101c3717e1")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "14/B3" 0
+			(polygon
+				(pts
+					(xy -2.87729 7.81087) (xy -3.121281 7.81087) (xy -3.121281 8.701868) (xy -3.01344 8.701868) (xy -3.01344 7.922428)
+					(xy -2.87729 7.922428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.864546 8.279816) (xy -3.864546 7.81087) (xy -3.972387 7.81087) (xy -3.972387 8.701868) (xy -3.864546 8.701868)
+					(xy -3.864546 8.391374) (xy -3.417311 8.391374) (xy -3.417311 7.81087) (xy -3.525151 7.81087) (xy -3.525151 8.279816)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.077609 8.701868) (xy -4.398349 7.81087) (xy -4.508971 7.81087) (xy -4.188231 8.701868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.602738 7.922428) (xy -4.660341 7.922428) (xy -4.660341 8.59031) (xy -4.602738 8.59031) (xy -4.602738 8.701868)
+					(xy -5.218526 8.701868) (xy -5.218526 8.59031) (xy -5.110685 8.59031) (xy -4.768181 8.59031) (xy -4.768181 8.309308)
+					(xy -5.110685 8.309308) (xy -5.110685 8.59031) (xy -5.218526 8.59031) (xy -5.218526 8.197751) (xy -5.110685 8.197751)
+					(xy -4.768181 8.197751) (xy -4.768181 7.922428) (xy -5.110685 7.922428) (xy -5.110685 8.197751)
+					(xy -5.218526 8.197751) (xy -5.218526 7.81087) (xy -4.602738 7.81087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.328658 7.81087) (xy -5.871133 7.81087) (xy -5.871133 8.701868) (xy -5.328658 8.701868) (xy -5.328658 8.59031)
+					(xy -5.763293 8.59031) (xy -5.763293 8.309308) (xy -5.328658 8.309308) (xy -5.328658 8.197751)
+					(xy -5.763293 8.197751) (xy -5.763293 7.922428) (xy -5.328658 7.922428)
+				)
+			)
+		)
+	)
+	(fp_text user "SCL/D0/3"
+		(at 3.556 -1.818 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f8992098-858b-4bc4-8352-4f0c79afb2d1")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "SCL/D0/3" 0
+			(polygon
+				(pts
+					(xy 5.48682 -2.339129) (xy 5.48682 -2.227571) (xy 5.926691 -2.227571) (xy 5.926691 -1.952248) (xy 5.48682 -1.952248)
+					(xy 5.48682 -1.448131) (xy 6.034532 -1.448131) (xy 6.034532 -1.559689) (xy 5.59466 -1.559689) (xy 5.59466 -1.840691)
+					(xy 6.034532 -1.840691) (xy 6.034532 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.823576 -2.339129) (xy 4.823576 -2.227571) (xy 5.265575 -2.227571) (xy 5.265575 -1.559689)
+					(xy 4.823576 -1.559689) (xy 4.823576 -1.448131) (xy 5.373415 -1.448131) (xy 5.373415 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.613622 -2.339129) (xy 4.613622 -1.559689) (xy 4.171623 -1.559689) (xy 4.171623 -1.448131)
+					(xy 4.721463 -1.448131) (xy 4.721463 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.07491 -1.448131) (xy 3.754171 -2.339129) (xy 3.643548 -2.339129) (xy 3.964288 -1.448131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.549781 -2.227571) (xy 3.492179 -2.227571) (xy 3.492179 -1.559689) (xy 3.549781 -1.559689)
+					(xy 3.549781 -1.448131) (xy 2.937103 -1.448131) (xy 2.937103 -1.559689) (xy 3.044943 -1.559689)
+					(xy 3.384338 -1.559689) (xy 3.384338 -2.227571) (xy 3.044943 -2.227571) (xy 3.044943 -1.559689)
+					(xy 2.937103 -1.559689) (xy 2.937103 -2.339129) (xy 3.549781 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.829098 -1.448131) (xy 2.274022 -1.448131) (xy 2.274022 -1.559689) (xy 2.381863 -1.559689)
+					(xy 2.721258 -1.559689) (xy 2.721258 -2.227571) (xy 2.381863 -2.227571) (xy 2.381863 -1.559689)
+					(xy 2.274022 -1.559689) (xy 2.274022 -2.339129) (xy 2.829098 -2.339129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.1688 -1.448131) (xy 1.84806 -2.339129) (xy 1.737438 -2.339129) (xy 2.058178 -1.448131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.633198 -2.339129) (xy 1.090722 -2.339129) (xy 1.090722 -1.448131) (xy 1.633198 -1.448131)
+					(xy 1.633198 -1.559689) (xy 1.198563 -1.559689) (xy 1.198563 -1.840691) (xy 1.633198 -1.840691)
+					(xy 1.633198 -1.952248) (xy 1.198563 -1.952248) (xy 1.198563 -2.227571) (xy 1.633198 -2.227571)
+				)
+			)
+		)
+	)
+	(fp_text user "10/B6"
+		(at -4.318 13.382 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fa6b0654-9321-4450-a423-305f6b2dd973")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "10/B6" 0
+			(polygon
+				(pts
+					(xy -2.87729 12.86087) (xy -3.121281 12.86087) (xy -3.121281 13.751868) (xy -3.01344 13.751868)
+					(xy -3.01344 12.972428) (xy -2.87729 12.972428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.417311 13.751868) (xy -3.972387 13.751868) (xy -3.972387 13.64031) (xy -3.864546 13.64031)
+					(xy -3.525151 13.64031) (xy -3.525151 12.972428) (xy -3.864546 12.972428) (xy -3.864546 13.64031)
+					(xy -3.972387 13.64031) (xy -3.972387 12.86087) (xy -3.417311 12.86087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.077609 13.751868) (xy -4.398349 12.86087) (xy -4.508971 12.86087) (xy -4.188231 13.751868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.602738 12.972428) (xy -4.660341 12.972428) (xy -4.660341 13.64031) (xy -4.602738 13.64031)
+					(xy -4.602738 13.751868) (xy -5.218526 13.751868) (xy -5.218526 13.64031) (xy -5.110685 13.64031)
+					(xy -4.768181 13.64031) (xy -4.768181 13.359308) (xy -5.110685 13.359308) (xy -5.110685 13.64031)
+					(xy -5.218526 13.64031) (xy -5.218526 13.247751) (xy -5.110685 13.247751) (xy -4.768181 13.247751)
+					(xy -4.768181 12.972428) (xy -5.110685 12.972428) (xy -5.110685 13.247751) (xy -5.218526 13.247751)
+					(xy -5.218526 12.86087) (xy -4.602738 12.86087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.323421 13.751868) (xy -5.878497 13.751868) (xy -5.878497 13.64031) (xy -5.770656 13.64031)
+					(xy -5.431262 13.64031) (xy -5.431262 13.288967) (xy -5.770656 13.288967) (xy -5.770656 13.64031)
+					(xy -5.878497 13.64031) (xy -5.878497 13.177409) (xy -5.431262 13.177409) (xy -5.431262 12.972428)
+					(xy -5.878497 12.972428) (xy -5.878497 12.86087) (xy -5.323421 12.86087)
+				)
+			)
+		)
+	)
+	(fp_text user "RAW"
+		(at -3.718 -14.568 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fbb83ebb-6f48-4d20-8253-9ea2ad2b68ba")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "RAW" 0
+			(polygon
+				(pts
+					(xy -2.725016 -14.198131) (xy -2.832857 -14.198131) (xy -2.832857 -14.502946) (xy -2.997318 -14.502946)
+					(xy -2.997318 -14.198131) (xy -3.290565 -14.198131) (xy -3.290565 -14.309689) (xy -3.105158 -14.309689)
+					(xy -3.105158 -14.502946) (xy -3.290565 -14.502946) (xy -3.290565 -14.614504) (xy -3.182725 -14.614504)
+					(xy -2.832857 -14.614504) (xy -2.832857 -14.977571) (xy -3.182725 -14.977571) (xy -3.182725 -14.614504)
+					(xy -3.290565 -14.614504) (xy -3.290565 -15.089129) (xy -2.725016 -15.089129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.399879 -14.198131) (xy -3.507719 -14.198131) (xy -3.507719 -14.508625) (xy -3.857587 -14.508625)
+					(xy -3.857587 -14.198131) (xy -3.965428 -14.198131) (xy -3.965428 -14.620183) (xy -3.857587 -14.620183)
+					(xy -3.507719 -14.620183) (xy -3.507719 -14.977571) (xy -3.857587 -14.977571) (xy -3.857587 -14.620183)
+					(xy -3.965428 -14.620183) (xy -3.965428 -15.089129) (xy -3.399879 -15.089129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.592179 -14.309689) (xy -4.592179 -15.089129) (xy -4.70002 -15.089129) (xy -4.70002 -14.198131)
+					(xy -4.074741 -14.198131) (xy -4.074741 -15.089129) (xy -4.182582 -15.089129) (xy -4.182582 -14.309689)
+					(xy -4.33346 -14.309689) (xy -4.33346 -15.089129) (xy -4.441301 -15.089129) (xy -4.441301 -14.309689)
+				)
+			)
+		)
+	)
+	(fp_text user "16/B2"
+		(at -4.318 10.882 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "ffe02483-e5b3-4364-94aa-8bf9f665a4ac")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+		(render_cache "16/B2" 0
+			(polygon
+				(pts
+					(xy -2.87729 10.36087) (xy -3.121281 10.36087) (xy -3.121281 11.251868) (xy -3.01344 11.251868)
+					(xy -3.01344 10.472428) (xy -2.87729 10.472428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.417311 11.251868) (xy -3.972387 11.251868) (xy -3.972387 11.14031) (xy -3.864546 11.14031)
+					(xy -3.525151 11.14031) (xy -3.525151 10.788967) (xy -3.864546 10.788967) (xy -3.864546 11.14031)
+					(xy -3.972387 11.14031) (xy -3.972387 10.677409) (xy -3.525151 10.677409) (xy -3.525151 10.472428)
+					(xy -3.972387 10.472428) (xy -3.972387 10.36087) (xy -3.417311 10.36087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.077609 11.251868) (xy -4.398349 10.36087) (xy -4.508971 10.36087) (xy -4.188231 11.251868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.602738 10.472428) (xy -4.660341 10.472428) (xy -4.660341 11.14031) (xy -4.602738 11.14031)
+					(xy -4.602738 11.251868) (xy -5.218526 11.251868) (xy -5.218526 11.14031) (xy -5.110685 11.14031)
+					(xy -4.768181 11.14031) (xy -4.768181 10.859308) (xy -5.110685 10.859308) (xy -5.110685 11.14031)
+					(xy -5.218526 11.14031) (xy -5.218526 10.747751) (xy -5.110685 10.747751) (xy -4.768181 10.747751)
+					(xy -4.768181 10.472428) (xy -5.110685 10.472428) (xy -5.110685 10.747751) (xy -5.218526 10.747751)
+					(xy -5.218526 10.36087) (xy -4.602738 10.36087)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.333894 10.36087) (xy -5.878497 10.36087) (xy -5.878497 10.859308) (xy -5.441735 10.859308)
+					(xy -5.441735 11.14031) (xy -5.878497 11.14031) (xy -5.878497 11.251868) (xy -5.333894 11.251868)
+					(xy -5.333894 10.747751) (xy -5.770656 10.747751) (xy -5.770656 10.472428) (xy -5.333894 10.472428)
+				)
+			)
+		)
+	)
+	(fp_text user "USB-C"
+		(at -0.05 -18.95 180)
+		(layer "F.SilkS")
+		(uuid "01bc35a2-f5c0-445b-8338-774179ef8f00")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.75)
+				(thickness 0.12)
+			)
+		)
+		(render_cache "USB-C" 0
+			(polygon
+				(pts
+					(xy -1.289043 -18.691689) (xy -1.289043 -19.471129) (xy -1.168326 -19.471129) (xy -1.168326 -18.580131)
+					(xy -1.79316 -18.580131) (xy -1.79316 -19.471129) (xy -1.672443 -19.471129) (xy -1.672443 -18.691689)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.424606 -19.471129) (xy -0.424606 -19.359571) (xy -0.917 -19.359571) (xy -0.917 -19.084248)
+					(xy -0.424606 -19.084248) (xy -0.424606 -18.580131) (xy -1.037717 -18.580131) (xy -1.037717 -18.691689)
+					(xy -0.545324 -18.691689) (xy -0.545324 -18.972691) (xy -1.037717 -18.972691) (xy -1.037717 -19.471129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.38579 -18.580131) (xy -0.303523 -18.580131) (xy -0.303523 -18.691689) (xy -0.239043 -18.691689)
+					(xy -0.118326 -18.691689) (xy 0.265073 -18.691689) (xy 0.265073 -18.972691) (xy -0.118326 -18.972691)
+					(xy -0.118326 -18.691689) (xy -0.239043 -18.691689) (xy -0.239043 -19.084248) (xy -0.118326 -19.084248)
+					(xy 0.265073 -19.084248) (xy 0.265073 -19.359571) (xy -0.118326 -19.359571) (xy -0.118326 -19.084248)
+					(xy -0.239043 -19.084248) (xy -0.239043 -19.359571) (xy -0.303523 -19.359571) (xy -0.303523 -19.471129)
+					(xy 0.38579 -19.471129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.514934 -18.838052) (xy 0.514934 -18.94961) (xy 0.948709 -18.94961) (xy 0.948709 -18.838052)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.696092 -19.471129) (xy 1.696092 -19.359571) (xy 1.201317 -19.359571) (xy 1.201317 -18.691689)
+					(xy 1.696092 -18.691689) (xy 1.696092 -18.580131) (xy 1.0806 -18.580131) (xy 1.0806 -19.471129)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -4.995 -11.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06ff1d46-bdf3-41e6-aed5-5412d8bf1cac")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy -5.897161 -12.359571) (xy -5.897161 -11.691689) (xy -5.557766 -11.691689) (xy -5.557766 -11.972691)
+					(xy -5.729918 -11.972691) (xy -5.729918 -12.084248) (xy -5.449926 -12.084248) (xy -5.449926 -11.580131)
+					(xy -6.005002 -11.580131) (xy -6.005002 -12.471129) (xy -5.449926 -12.471129) (xy -5.449926 -12.359571)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.819247 -11.691689) (xy -4.819247 -12.471129) (xy -4.711406 -12.471129) (xy -4.711406 -11.580131)
+					(xy -5.077966 -11.580131) (xy -5.077966 -12.359571) (xy -5.228844 -12.359571) (xy -5.228844 -11.580131)
+					(xy -5.336685 -11.580131) (xy -5.336685 -12.471129) (xy -4.970125 -12.471129) (xy -4.970125 -11.691689)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.988269 -11.580131) (xy -4.600947 -11.580131) (xy -4.600947 -11.691689) (xy -4.543345 -11.691689)
+					(xy -4.435505 -11.691689) (xy -4.09611 -11.691689) (xy -4.09611 -12.359571) (xy -4.435505 -12.359571)
+					(xy -4.435505 -11.691689) (xy -4.543345 -11.691689) (xy -4.543345 -12.359571) (xy -4.600947 -12.359571)
+					(xy -4.600947 -12.471129) (xy -3.988269 -12.471129)
+				)
+			)
+		)
+	)
+	(fp_text user "10/B6"
+		(at -4.395 13.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c77672f-4d71-4334-ab8c-540033a24b65")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "10/B6" 0
+			(polygon
+				(pts
+					(xy -5.835709 12.92887) (xy -5.591718 12.92887) (xy -5.591718 13.819868) (xy -5.699559 13.819868)
+					(xy -5.699559 13.040428) (xy -5.835709 13.040428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.740612 13.819868) (xy -5.295688 13.819868) (xy -5.295688 13.70831) (xy -5.187848 13.70831)
+					(xy -4.848453 13.70831) (xy -4.848453 13.040428) (xy -5.187848 13.040428) (xy -5.187848 13.70831)
+					(xy -5.295688 13.70831) (xy -5.295688 12.92887) (xy -4.740612 12.92887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.63539 13.819868) (xy -4.31465 12.92887) (xy -4.204028 12.92887) (xy -4.524768 13.819868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.494473 13.819868) (xy -4.110261 13.819868) (xy -4.110261 13.70831) (xy -4.052658 13.70831)
+					(xy -3.944818 13.70831) (xy -3.602314 13.70831) (xy -3.602314 13.427308) (xy -3.944818 13.427308)
+					(xy -3.944818 13.70831) (xy -4.052658 13.70831) (xy -4.052658 13.315751) (xy -3.944818 13.315751)
+					(xy -3.602314 13.315751) (xy -3.602314 13.040428) (xy -3.944818 13.040428) (xy -3.944818 13.315751)
+					(xy -4.052658 13.315751) (xy -4.052658 13.040428) (xy -4.110261 13.040428) (xy -4.110261 12.92887)
+					(xy -3.494473 12.92887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.834502 13.040428) (xy -3.281737 13.040428) (xy -3.281737 13.245409) (xy -2.834502 13.245409)
+					(xy -2.834502 13.819868) (xy -3.389578 13.819868) (xy -3.389578 13.70831) (xy -3.281737 13.70831)
+					(xy -2.942343 13.70831) (xy -2.942343 13.356967) (xy -3.281737 13.356967) (xy -3.281737 13.70831)
+					(xy -3.389578 13.70831) (xy -3.389578 12.92887) (xy -2.834502 12.92887)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 4.955 -6.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d5896a3-810b-4f4a-9848-68596e6037d1")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 4.052838 -7.309571) (xy 4.052838 -6.641689) (xy 4.392233 -6.641689) (xy 4.392233 -6.922691)
+					(xy 4.220081 -6.922691) (xy 4.220081 -7.034248) (xy 4.500073 -7.034248) (xy 4.500073 -6.530131)
+					(xy 3.944997 -6.530131) (xy 3.944997 -7.421129) (xy 4.500073 -7.421129) (xy 4.500073 -7.309571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.130752 -6.641689) (xy 5.130752 -7.421129) (xy 5.238593 -7.421129) (xy 5.238593 -6.530131)
+					(xy 4.872033 -6.530131) (xy 4.872033 -7.309571) (xy 4.721155 -7.309571) (xy 4.721155 -6.530131)
+					(xy 4.613314 -6.530131) (xy 4.613314 -7.421129) (xy 4.979874 -7.421129) (xy 4.979874 -6.641689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.96173 -6.530131) (xy 5.349052 -6.530131) (xy 5.349052 -6.641689) (xy 5.406654 -6.641689)
+					(xy 5.514494 -6.641689) (xy 5.853889 -6.641689) (xy 5.853889 -7.309571) (xy 5.514494 -7.309571)
+					(xy 5.514494 -6.641689) (xy 5.406654 -6.641689) (xy 5.406654 -7.309571) (xy 5.349052 -7.309571)
+					(xy 5.349052 -7.421129) (xy 5.96173 -7.421129)
+				)
+			)
+		)
+	)
+	(fp_text user "SCL/D0/3"
+		(at 3.455 -1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2548b11b-0a2d-428d-92ca-bc4b4f262c40")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "SCL/D0/3" 0
+			(polygon
+				(pts
+					(xy 1.524179 -2.421129) (xy 1.524179 -2.309571) (xy 1.084308 -2.309571) (xy 1.084308 -2.034248)
+					(xy 1.524179 -2.034248) (xy 1.524179 -1.530131) (xy 0.976467 -1.530131) (xy 0.976467 -1.641689)
+					(xy 1.416339 -1.641689) (xy 1.416339 -1.922691) (xy 0.976467 -1.922691) (xy 0.976467 -2.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.187423 -2.421129) (xy 2.187423 -2.309571) (xy 1.745424 -2.309571) (xy 1.745424 -1.641689)
+					(xy 2.187423 -1.641689) (xy 2.187423 -1.530131) (xy 1.637584 -1.530131) (xy 1.637584 -2.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.397377 -2.421129) (xy 2.397377 -1.641689) (xy 2.839376 -1.641689) (xy 2.839376 -1.530131)
+					(xy 2.289536 -1.530131) (xy 2.289536 -2.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.936089 -1.530131) (xy 3.256828 -2.421129) (xy 3.367451 -2.421129) (xy 3.046711 -1.530131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.073896 -1.530131) (xy 3.461218 -1.530131) (xy 3.461218 -1.641689) (xy 3.51882 -1.641689)
+					(xy 3.626661 -1.641689) (xy 3.966056 -1.641689) (xy 3.966056 -2.309571) (xy 3.626661 -2.309571)
+					(xy 3.626661 -1.641689) (xy 3.51882 -1.641689) (xy 3.51882 -2.309571) (xy 3.461218 -2.309571) (xy 3.461218 -2.421129)
+					(xy 4.073896 -2.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.736977 -1.530131) (xy 4.181901 -1.530131) (xy 4.181901 -1.641689) (xy 4.289741 -1.641689)
+					(xy 4.629136 -1.641689) (xy 4.629136 -2.309571) (xy 4.289741 -2.309571) (xy 4.289741 -1.641689)
+					(xy 4.181901 -1.641689) (xy 4.181901 -2.421129) (xy 4.736977 -2.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.842199 -1.530131) (xy 5.162939 -2.421129) (xy 5.273561 -2.421129) (xy 4.952821 -1.530131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.377801 -2.421129) (xy 5.920277 -2.421129) (xy 5.920277 -1.530131) (xy 5.377801 -1.530131)
+					(xy 5.377801 -1.641689) (xy 5.812436 -1.641689) (xy 5.812436 -1.922691) (xy 5.377801 -1.922691)
+					(xy 5.377801 -2.034248) (xy 5.812436 -2.034248) (xy 5.812436 -2.309571) (xy 5.377801 -2.309571)
+				)
+			)
+		)
+	)
+	(fp_text user "15/B1"
+		(at -4.395 5.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2a4dce27-e083-4912-a270-f59c92d4a920")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "15/B1" 0
+			(polygon
+				(pts
+					(xy -5.835709 5.32887) (xy -5.591718 5.32887) (xy -5.591718 6.219868) (xy -5.699559 6.219868) (xy -5.699559 5.440428)
+					(xy -5.835709 5.440428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.740612 5.32887) (xy -4.740612 5.440428) (xy -5.177375 5.440428) (xy -5.177375 5.715751)
+					(xy -4.740612 5.715751) (xy -4.740612 6.219868) (xy -5.285215 6.219868) (xy -5.285215 6.10831)
+					(xy -4.848453 6.10831) (xy -4.848453 5.827308) (xy -5.285215 5.827308) (xy -5.285215 5.32887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.63539 6.219868) (xy -4.31465 5.32887) (xy -4.204028 5.32887) (xy -4.524768 6.219868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.494473 6.219868) (xy -4.110261 6.219868) (xy -4.110261 6.10831) (xy -4.052658 6.10831) (xy -3.944818 6.10831)
+					(xy -3.602314 6.10831) (xy -3.602314 5.827308) (xy -3.944818 5.827308) (xy -3.944818 6.10831) (xy -4.052658 6.10831)
+					(xy -4.052658 5.715751) (xy -3.944818 5.715751) (xy -3.602314 5.715751) (xy -3.602314 5.440428)
+					(xy -3.944818 5.440428) (xy -3.944818 5.715751) (xy -4.052658 5.715751) (xy -4.052658 5.440428)
+					(xy -4.110261 5.440428) (xy -4.110261 5.32887) (xy -3.494473 5.32887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.2639 5.32887) (xy -3.019909 5.32887) (xy -3.019909 6.219868) (xy -3.12775 6.219868) (xy -3.12775 5.440428)
+					(xy -3.2639 5.440428)
+				)
+			)
+		)
+	)
+	(fp_text user "14/B3"
+		(at -4.395 8.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ba37944-3b5f-4b3e-9ace-ac6b12b03b4a")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "14/B3" 0
+			(polygon
+				(pts
+					(xy -5.835709 7.87887) (xy -5.591718 7.87887) (xy -5.591718 8.769868) (xy -5.699559 8.769868) (xy -5.699559 7.990428)
+					(xy -5.835709 7.990428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.848453 8.347816) (xy -4.848453 7.87887) (xy -4.740612 7.87887) (xy -4.740612 8.769868) (xy -4.848453 8.769868)
+					(xy -4.848453 8.459374) (xy -5.295688 8.459374) (xy -5.295688 7.87887) (xy -5.187848 7.87887) (xy -5.187848 8.347816)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.63539 8.769868) (xy -4.31465 7.87887) (xy -4.204028 7.87887) (xy -4.524768 8.769868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.494473 8.769868) (xy -4.110261 8.769868) (xy -4.110261 8.65831) (xy -4.052658 8.65831) (xy -3.944818 8.65831)
+					(xy -3.602314 8.65831) (xy -3.602314 8.377308) (xy -3.944818 8.377308) (xy -3.944818 8.65831) (xy -4.052658 8.65831)
+					(xy -4.052658 8.265751) (xy -3.944818 8.265751) (xy -3.602314 8.265751) (xy -3.602314 7.990428)
+					(xy -3.944818 7.990428) (xy -3.944818 8.265751) (xy -4.052658 8.265751) (xy -4.052658 7.990428)
+					(xy -4.110261 7.990428) (xy -4.110261 7.87887) (xy -3.494473 7.87887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.384341 7.87887) (xy -2.841866 7.87887) (xy -2.841866 8.769868) (xy -3.384341 8.769868) (xy -3.384341 8.65831)
+					(xy -2.949706 8.65831) (xy -2.949706 8.377308) (xy -3.384341 8.377308) (xy -3.384341 8.265751)
+					(xy -2.949706 8.265751) (xy -2.949706 7.990428) (xy -3.384341 7.990428)
+				)
+			)
+		)
+	)
+	(fp_text user "A2/F5"
+		(at -4.395 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4cf376a9-c860-489b-835d-3c073ce7f246")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "A2/F5" 0
+			(polygon
+				(pts
+					(xy -5.368673 -1.380131) (xy -5.476513 -1.380131) (xy -5.476513 -1.690625) (xy -5.826381 -1.690625)
+					(xy -5.826381 -1.380131) (xy -5.934222 -1.380131) (xy -5.934222 -1.802183) (xy -5.826381 -1.802183)
+					(xy -5.476513 -1.802183) (xy -5.476513 -2.159571) (xy -5.826381 -2.159571) (xy -5.826381 -1.802183)
+					(xy -5.934222 -1.802183) (xy -5.934222 -2.271129) (xy -5.368673 -2.271129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.248886 -2.271129) (xy -4.704283 -2.271129) (xy -4.704283 -1.772691) (xy -5.141046 -1.772691)
+					(xy -5.141046 -1.491689) (xy -4.704283 -1.491689) (xy -4.704283 -1.380131) (xy -5.248886 -1.380131)
+					(xy -5.248886 -1.884248) (xy -4.812124 -1.884248) (xy -4.812124 -2.159571) (xy -5.248886 -2.159571)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.599061 -1.380131) (xy -4.278321 -2.271129) (xy -4.167699 -2.271129) (xy -4.488439 -1.380131)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.518855 -2.271129) (xy -3.518855 -2.159571) (xy -3.960854 -2.159571) (xy -3.960854 -1.884248)
+					(xy -3.518855 -1.884248) (xy -3.518855 -1.772691) (xy -3.960854 -1.772691) (xy -3.960854 -1.380131)
+					(xy -4.068695 -1.380131) (xy -4.068695 -2.271129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.861666 -2.271129) (xy -2.861666 -2.159571) (xy -3.298429 -2.159571) (xy -3.298429 -1.884248)
+					(xy -2.861666 -1.884248) (xy -2.861666 -1.380131) (xy -3.406269 -1.380131) (xy -3.406269 -1.491689)
+					(xy -2.969507 -1.491689) (xy -2.969507 -1.772691) (xy -3.406269 -1.772691) (xy -3.406269 -2.271129)
+				)
+			)
+		)
+	)
+	(fp_text user "E6/7"
+		(at 4.705 8.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5373ca07-3bba-4e78-95d7-99381a9b79ed")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "E6/7" 0
+			(polygon
+				(pts
+					(xy 4.053048 7.72887) (xy 4.053048 7.840428) (xy 3.611049 7.840428) (xy 3.611049 8.115751) (xy 4.053048 8.115751)
+					(xy 4.053048 8.227308) (xy 3.611049 8.227308) (xy 3.611049 8.50831) (xy 4.053048 8.50831) (xy 4.053048 8.619868)
+					(xy 3.503208 8.619868) (xy 3.503208 7.72887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.710237 7.840428) (xy 4.263001 7.840428) (xy 4.263001 8.045409) (xy 4.710237 8.045409) (xy 4.710237 8.619868)
+					(xy 4.155161 8.619868) (xy 4.155161 8.50831) (xy 4.263001 8.50831) (xy 4.602396 8.50831) (xy 4.602396 8.156967)
+					(xy 4.263001 8.156967) (xy 4.263001 8.50831) (xy 4.155161 8.50831) (xy 4.155161 7.72887) (xy 4.710237 7.72887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.815459 8.619868) (xy 5.136199 7.72887) (xy 5.246821 7.72887) (xy 4.926082 8.619868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.351062 7.72887) (xy 5.90401 7.72887) (xy 5.90401 8.619868) (xy 5.79617 8.619868) (xy 5.79617 7.840428)
+					(xy 5.351062 7.840428)
+				)
+			)
+		)
+	)
+	(fp_text user "SDA/D1/2"
+		(at 3.455 -4.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5cc37e53-86d9-4aa6-be6e-8f3d40c132eb")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "SDA/D1/2" 0
+			(polygon
+				(pts
+					(xy 1.480978 -4.921129) (xy 1.480978 -4.809571) (xy 1.041107 -4.809571) (xy 1.041107 -4.534248)
+					(xy 1.480978 -4.534248) (xy 1.480978 -4.030131) (xy 0.933266 -4.030131) (xy 0.933266 -4.141689)
+					(xy 1.373138 -4.141689) (xy 1.373138 -4.422691) (xy 0.933266 -4.422691) (xy 0.933266 -4.921129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.201824 -4.030131) (xy 1.589146 -4.030131) (xy 1.589146 -4.141689) (xy 1.646748 -4.141689)
+					(xy 1.754589 -4.141689) (xy 2.093984 -4.141689) (xy 2.093984 -4.809571) (xy 1.754589 -4.809571)
+					(xy 1.754589 -4.141689) (xy 1.646748 -4.141689) (xy 1.646748 -4.809571) (xy 1.589146 -4.809571)
+					(xy 1.589146 -4.921129) (xy 2.201824 -4.921129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.875378 -4.030131) (xy 2.767537 -4.030131) (xy 2.767537 -4.340625) (xy 2.417669 -4.340625)
+					(xy 2.417669 -4.030131) (xy 2.309829 -4.030131) (xy 2.309829 -4.452183) (xy 2.417669 -4.452183)
+					(xy 2.767537 -4.452183) (xy 2.767537 -4.809571) (xy 2.417669 -4.809571) (xy 2.417669 -4.452183)
+					(xy 2.309829 -4.452183) (xy 2.309829 -4.921129) (xy 2.875378 -4.921129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.979291 -4.030131) (xy 3.300031 -4.921129) (xy 3.410653 -4.921129) (xy 3.089913 -4.030131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.117099 -4.030131) (xy 3.50442 -4.030131) (xy 3.50442 -4.141689) (xy 3.562023 -4.141689) (xy 3.669863 -4.141689)
+					(xy 4.009258 -4.141689) (xy 4.009258 -4.809571) (xy 3.669863 -4.809571) (xy 3.669863 -4.141689)
+					(xy 3.562023 -4.141689) (xy 3.562023 -4.809571) (xy 3.50442 -4.809571) (xy 3.50442 -4.921129) (xy 4.117099 -4.921129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.35078 -4.921129) (xy 4.594772 -4.921129) (xy 4.594772 -4.030131) (xy 4.486931 -4.030131)
+					(xy 4.486931 -4.809571) (xy 4.35078 -4.809571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.885401 -4.030131) (xy 5.206141 -4.921129) (xy 5.316763 -4.921129) (xy 4.996024 -4.030131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.42624 -4.921129) (xy 5.970843 -4.921129) (xy 5.970843 -4.422691) (xy 5.534081 -4.422691)
+					(xy 5.534081 -4.141689) (xy 5.970843 -4.141689) (xy 5.970843 -4.030131) (xy 5.42624 -4.030131)
+					(xy 5.42624 -4.534248) (xy 5.863003 -4.534248) (xy 5.863003 -4.809571) (xy 5.42624 -4.809571)
+				)
+			)
+		)
+	)
+	(fp_text user "B5/9"
+		(at 4.705 13.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "628a2bbc-1b7d-4dce-bc3e-77eeedccc134")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "B5/9" 0
+			(polygon
+				(pts
+					(xy 4.082012 13.669868) (xy 3.466225 13.669868) (xy 3.466225 13.55831) (xy 3.523827 13.55831) (xy 3.631667 13.55831)
+					(xy 3.974172 13.55831) (xy 3.974172 13.277308) (xy 3.631667 13.277308) (xy 3.631667 13.55831) (xy 3.523827 13.55831)
+					(xy 3.523827 13.165751) (xy 3.631667 13.165751) (xy 3.974172 13.165751) (xy 3.974172 12.890428)
+					(xy 3.631667 12.890428) (xy 3.631667 13.165751) (xy 3.523827 13.165751) (xy 3.523827 12.890428)
+					(xy 3.466225 12.890428) (xy 3.466225 12.77887) (xy 4.082012 12.77887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.741983 12.77887) (xy 4.741983 12.890428) (xy 4.305221 12.890428) (xy 4.305221 13.165751)
+					(xy 4.741983 13.165751) (xy 4.741983 13.669868) (xy 4.19738 13.669868) (xy 4.19738 13.55831) (xy 4.634143 13.55831)
+					(xy 4.634143 13.277308) (xy 4.19738 13.277308) (xy 4.19738 12.77887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.847205 13.669868) (xy 5.167945 12.77887) (xy 5.278568 12.77887) (xy 4.957828 13.669868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.932647 13.669868) (xy 5.377571 13.669868) (xy 5.377571 13.55831) (xy 5.824807 13.55831) (xy 5.824807 13.359374)
+					(xy 5.377571 13.359374) (xy 5.377571 13.247816) (xy 5.485412 13.247816) (xy 5.824807 13.247816)
+					(xy 5.824807 12.890428) (xy 5.485412 12.890428) (xy 5.485412 13.247816) (xy 5.377571 13.247816)
+					(xy 5.377571 12.77887) (xy 5.932647 12.77887)
+				)
+			)
+		)
+	)
+	(fp_text user "D4/4"
+		(at 4.705 0.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6df7c3cf-27e5-4ab3-89bf-8c381b4960b5")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "D4/4" 0
+			(polygon
+				(pts
+					(xy 4.078903 0.969868) (xy 3.466225 0.969868) (xy 3.466225 0.85831) (xy 3.523827 0.85831) (xy 3.631667 0.85831)
+					(xy 3.971062 0.85831) (xy 3.971062 0.190428) (xy 3.631667 0.190428) (xy 3.631667 0.85831) (xy 3.523827 0.85831)
+					(xy 3.523827 0.190428) (xy 3.466225 0.190428) (xy 3.466225 0.07887) (xy 4.078903 0.07887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.634143 0.547816) (xy 4.634143 0.07887) (xy 4.741983 0.07887) (xy 4.741983 0.969868) (xy 4.634143 0.969868)
+					(xy 4.634143 0.659374) (xy 4.186907 0.659374) (xy 4.186907 0.07887) (xy 4.294748 0.07887) (xy 4.294748 0.547816)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.847205 0.969868) (xy 5.167945 0.07887) (xy 5.278568 0.07887) (xy 4.957828 0.969868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.824807 0.547816) (xy 5.824807 0.07887) (xy 5.932647 0.07887) (xy 5.932647 0.969868) (xy 5.824807 0.969868)
+					(xy 5.824807 0.659374) (xy 5.377571 0.659374) (xy 5.377571 0.07887) (xy 5.485412 0.07887) (xy 5.485412 0.547816)
+				)
+			)
+		)
+	)
+	(fp_text user "B4/8"
+		(at 4.705 10.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fc7ea0b-0b32-4178-91d6-fba0c6650807")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "B4/8" 0
+			(polygon
+				(pts
+					(xy 4.082012 11.169868) (xy 3.466225 11.169868) (xy 3.466225 11.05831) (xy 3.523827 11.05831) (xy 3.631667 11.05831)
+					(xy 3.974172 11.05831) (xy 3.974172 10.777308) (xy 3.631667 10.777308) (xy 3.631667 11.05831) (xy 3.523827 11.05831)
+					(xy 3.523827 10.665751) (xy 3.631667 10.665751) (xy 3.974172 10.665751) (xy 3.974172 10.390428)
+					(xy 3.631667 10.390428) (xy 3.631667 10.665751) (xy 3.523827 10.665751) (xy 3.523827 10.390428)
+					(xy 3.466225 10.390428) (xy 3.466225 10.27887) (xy 4.082012 10.27887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.634143 10.747816) (xy 4.634143 10.27887) (xy 4.741983 10.27887) (xy 4.741983 11.169868) (xy 4.634143 11.169868)
+					(xy 4.634143 10.859374) (xy 4.186907 10.859374) (xy 4.186907 10.27887) (xy 4.294748 10.27887) (xy 4.294748 10.747816)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.847205 11.169868) (xy 5.167945 10.27887) (xy 5.278568 10.27887) (xy 4.957828 11.169868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.932647 11.169868) (xy 5.377571 11.169868) (xy 5.377571 11.05831) (xy 5.485412 11.05831) (xy 5.824807 11.05831)
+					(xy 5.824807 10.777308) (xy 5.485412 10.777308) (xy 5.485412 11.05831) (xy 5.377571 11.05831) (xy 5.377571 10.665751)
+					(xy 5.485412 10.665751) (xy 5.824807 10.665751) (xy 5.824807 10.390428) (xy 5.485412 10.390428)
+					(xy 5.485412 10.665751) (xy 5.377571 10.665751) (xy 5.377571 10.27887) (xy 5.932647 10.27887)
+				)
+			)
+		)
+	)
+	(fp_text user "D7/6"
+		(at 4.705 5.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7da6932e-cdfb-4141-9e1f-711e61c4cbbb")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "D7/6" 0
+			(polygon
+				(pts
+					(xy 4.078903 6.069868) (xy 3.466225 6.069868) (xy 3.466225 5.95831) (xy 3.523827 5.95831) (xy 3.631667 5.95831)
+					(xy 3.971062 5.95831) (xy 3.971062 5.290428) (xy 3.631667 5.290428) (xy 3.631667 5.95831) (xy 3.523827 5.95831)
+					(xy 3.523827 5.290428) (xy 3.466225 5.290428) (xy 3.466225 5.17887) (xy 4.078903 5.17887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.192144 5.17887) (xy 4.745092 5.17887) (xy 4.745092 6.069868) (xy 4.637252 6.069868) (xy 4.637252 5.290428)
+					(xy 4.192144 5.290428)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.847205 6.069868) (xy 5.167945 5.17887) (xy 5.278568 5.17887) (xy 4.957828 6.069868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.932647 5.290428) (xy 5.485412 5.290428) (xy 5.485412 5.495409) (xy 5.932647 5.495409) (xy 5.932647 6.069868)
+					(xy 5.377571 6.069868) (xy 5.377571 5.95831) (xy 5.485412 5.95831) (xy 5.824807 5.95831) (xy 5.824807 5.606967)
+					(xy 5.485412 5.606967) (xy 5.485412 5.95831) (xy 5.377571 5.95831) (xy 5.377571 5.17887) (xy 5.932647 5.17887)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 5.08 -17.018 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84479968-06fc-4935-a4fb-95b24af89d01")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 4.177838 -17.427571) (xy 4.177838 -16.759689) (xy 4.517233 -16.759689) (xy 4.517233 -17.040691)
+					(xy 4.345081 -17.040691) (xy 4.345081 -17.152248) (xy 4.625073 -17.152248) (xy 4.625073 -16.648131)
+					(xy 4.069997 -16.648131) (xy 4.069997 -17.539129) (xy 4.625073 -17.539129) (xy 4.625073 -17.427571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.255752 -16.759689) (xy 5.255752 -17.539129) (xy 5.363593 -17.539129) (xy 5.363593 -16.648131)
+					(xy 4.997033 -16.648131) (xy 4.997033 -17.427571) (xy 4.846155 -17.427571) (xy 4.846155 -16.648131)
+					(xy 4.738314 -16.648131) (xy 4.738314 -17.539129) (xy 5.104874 -17.539129) (xy 5.104874 -16.759689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 6.08673 -16.648131) (xy 5.474052 -16.648131) (xy 5.474052 -16.759689) (xy 5.531654 -16.759689)
+					(xy 5.639494 -16.759689) (xy 5.978889 -16.759689) (xy 5.978889 -17.427571) (xy 5.639494 -17.427571)
+					(xy 5.639494 -16.759689) (xy 5.531654 -16.759689) (xy 5.531654 -17.427571) (xy 5.474052 -17.427571)
+					(xy 5.474052 -17.539129) (xy 6.08673 -17.539129)
+				)
+			)
+		)
+	)
+	(fp_text user "D2/RX1"
+		(at 4.155 -11.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "988cc840-eb1d-437a-b7c5-5d31c6dc42b6")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "D2/RX1" 0
+			(polygon
+				(pts
+					(xy 2.854041 -11.530131) (xy 2.241363 -11.530131) (xy 2.241363 -11.641689) (xy 2.298965 -11.641689)
+					(xy 2.406805 -11.641689) (xy 2.7462 -11.641689) (xy 2.7462 -12.309571) (xy 2.406805 -12.309571)
+					(xy 2.406805 -11.641689) (xy 2.298965 -11.641689) (xy 2.298965 -12.309571) (xy 2.241363 -12.309571)
+					(xy 2.241363 -12.421129) (xy 2.854041 -12.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.972518 -12.421129) (xy 3.517121 -12.421129) (xy 3.517121 -11.922691) (xy 3.080359 -11.922691)
+					(xy 3.080359 -11.641689) (xy 3.517121 -11.641689) (xy 3.517121 -11.530131) (xy 2.972518 -11.530131)
+					(xy 2.972518 -12.034248) (xy 3.409281 -12.034248) (xy 3.409281 -12.309571) (xy 2.972518 -12.309571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.622343 -11.530131) (xy 3.943083 -12.421129) (xy 4.053706 -12.421129) (xy 3.732966 -11.530131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.718259 -11.834946) (xy 4.532851 -11.834946) (xy 4.532851 -11.641689) (xy 4.718259 -11.641689)
+					(xy 4.718259 -11.530131) (xy 4.425011 -11.530131) (xy 4.425011 -11.834946) (xy 4.26055 -11.834946)
+					(xy 4.26055 -11.530131) (xy 4.152709 -11.530131) (xy 4.152709 -11.946504) (xy 4.26055 -11.946504)
+					(xy 4.610418 -11.946504) (xy 4.610418 -12.309571) (xy 4.26055 -12.309571) (xy 4.26055 -11.946504)
+					(xy 4.152709 -11.946504) (xy 4.152709 -12.421129) (xy 4.718259 -12.421129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.285281 -12.15753) (xy 5.285281 -12.421129) (xy 5.393121 -12.421129) (xy 5.393121 -12.045972)
+					(xy 5.162712 -12.045972) (xy 5.162712 -11.89961) (xy 5.393121 -11.89961) (xy 5.393121 -11.530131)
+					(xy 5.285281 -11.530131) (xy 5.285281 -11.788052) (xy 4.935412 -11.788052) (xy 4.935412 -11.530131)
+					(xy 4.827572 -11.530131) (xy 4.827572 -11.89961) (xy 5.054872 -11.89961) (xy 5.054872 -12.045972)
+					(xy 4.827572 -12.045972) (xy 4.827572 -12.421129) (xy 4.935412 -12.421129) (xy 4.935412 -12.15753)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.628112 -12.421129) (xy 5.872103 -12.421129) (xy 5.872103 -11.530131) (xy 5.764263 -11.530131)
+					(xy 5.764263 -12.309571) (xy 5.628112 -12.309571)
+				)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -5.08 -17.018 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5c8410c-198f-4b21-8983-26b0d8253899")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "+" 0
+			(polygon
+				(pts
+					(xy -5.030415 -17.140525) (xy -4.792642 -17.140525) (xy -4.792642 -17.028967) (xy -5.030415 -17.028967)
+					(xy -5.030415 -16.753644) (xy -5.138256 -16.753644) (xy -5.138256 -17.028967) (xy -5.368665 -17.028967)
+					(xy -5.368665 -17.140525) (xy -5.138256 -17.140525) (xy -5.138256 -17.410169) (xy -5.030415 -17.410169)
+				)
+			)
+		)
+	)
+	(fp_text user "A3/F4"
+		(at -4.395 -4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ba4aafca-b5e6-495a-9d04-a221b044eded")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "A3/F4" 0
+			(polygon
+				(pts
+					(xy -5.368673 -3.880131) (xy -5.476513 -3.880131) (xy -5.476513 -4.190625) (xy -5.826381 -4.190625)
+					(xy -5.826381 -3.880131) (xy -5.934222 -3.880131) (xy -5.934222 -4.302183) (xy -5.826381 -4.302183)
+					(xy -5.476513 -4.302183) (xy -5.476513 -4.659571) (xy -5.826381 -4.659571) (xy -5.826381 -4.302183)
+					(xy -5.934222 -4.302183) (xy -5.934222 -4.771129) (xy -5.368673 -4.771129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.254123 -4.771129) (xy -4.711647 -4.771129) (xy -4.711647 -3.880131) (xy -5.254123 -3.880131)
+					(xy -5.254123 -3.991689) (xy -4.819488 -3.991689) (xy -4.819488 -4.272691) (xy -5.254123 -4.272691)
+					(xy -5.254123 -4.384248) (xy -4.819488 -4.384248) (xy -4.819488 -4.659571) (xy -5.254123 -4.659571)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.599061 -3.880131) (xy -4.278321 -4.771129) (xy -4.167699 -4.771129) (xy -4.488439 -3.880131)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.518855 -4.771129) (xy -3.518855 -4.659571) (xy -3.960854 -4.659571) (xy -3.960854 -4.384248)
+					(xy -3.518855 -4.384248) (xy -3.518855 -4.272691) (xy -3.960854 -4.272691) (xy -3.960854 -3.880131)
+					(xy -4.068695 -3.880131) (xy -4.068695 -4.771129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.969507 -4.302183) (xy -2.969507 -4.771129) (xy -2.861666 -4.771129) (xy -2.861666 -3.880131)
+					(xy -2.969507 -3.880131) (xy -2.969507 -4.190625) (xy -3.416742 -4.190625) (xy -3.416742 -4.771129)
+					(xy -3.308902 -4.771129) (xy -3.308902 -4.302183)
+				)
+			)
+		)
+	)
+	(fp_text user "A0/F7"
+		(at -4.395 3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bcbbdc06-cb84-457c-94f3-c2f05ab7bb4a")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "A0/F7" 0
+			(polygon
+				(pts
+					(xy -5.368673 3.669868) (xy -5.476513 3.669868) (xy -5.476513 3.359374) (xy -5.826381 3.359374)
+					(xy -5.826381 3.669868) (xy -5.934222 3.669868) (xy -5.934222 3.247816) (xy -5.826381 3.247816)
+					(xy -5.476513 3.247816) (xy -5.476513 2.890428) (xy -5.826381 2.890428) (xy -5.826381 3.247816)
+					(xy -5.934222 3.247816) (xy -5.934222 2.77887) (xy -5.368673 2.77887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.704283 3.669868) (xy -5.259359 3.669868) (xy -5.259359 3.55831) (xy -5.151519 3.55831) (xy -4.812124 3.55831)
+					(xy -4.812124 2.890428) (xy -5.151519 2.890428) (xy -5.151519 3.55831) (xy -5.259359 3.55831) (xy -5.259359 2.77887)
+					(xy -4.704283 2.77887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.599061 3.669868) (xy -4.278321 2.77887) (xy -4.167699 2.77887) (xy -4.488439 3.669868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.518855 2.77887) (xy -3.518855 2.890428) (xy -3.960854 2.890428) (xy -3.960854 3.165751)
+					(xy -3.518855 3.165751) (xy -3.518855 3.277308) (xy -3.960854 3.277308) (xy -3.960854 3.669868)
+					(xy -4.068695 3.669868) (xy -4.068695 2.77887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.411506 2.77887) (xy -2.858557 2.77887) (xy -2.858557 3.669868) (xy -2.966398 3.669868) (xy -2.966398 2.890428)
+					(xy -3.411506 2.890428)
+				)
+			)
+		)
+	)
+	(fp_text user "D3/TX0"
+		(at 4.155 -14.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c6865965-3ad9-491e-ba65-0ed4e59cd50b")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "D3/TX0" 0
+			(polygon
+				(pts
+					(xy 2.844549 -14.080131) (xy 2.231871 -14.080131) (xy 2.231871 -14.191689) (xy 2.289473 -14.191689)
+					(xy 2.397313 -14.191689) (xy 2.736708 -14.191689) (xy 2.736708 -14.859571) (xy 2.397313 -14.859571)
+					(xy 2.397313 -14.191689) (xy 2.289473 -14.191689) (xy 2.289473 -14.859571) (xy 2.231871 -14.859571)
+					(xy 2.231871 -14.971129) (xy 2.844549 -14.971129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 2.95779 -14.971129) (xy 3.500265 -14.971129) (xy 3.500265 -14.080131) (xy 2.95779 -14.080131)
+					(xy 2.95779 -14.191689) (xy 3.392425 -14.191689) (xy 3.392425 -14.472691) (xy 2.95779 -14.472691)
+					(xy 2.95779 -14.584248) (xy 3.392425 -14.584248) (xy 3.392425 -14.859571) (xy 2.95779 -14.859571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.612851 -14.080131) (xy 3.933591 -14.971129) (xy 4.044214 -14.971129) (xy 3.723474 -14.080131)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.729713 -14.971129) (xy 4.729713 -14.859571) (xy 4.488831 -14.859571) (xy 4.488831 -14.080131)
+					(xy 4.38099 -14.080131) (xy 4.38099 -14.859571) (xy 4.132744 -14.859571) (xy 4.132744 -14.971129)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.294771 -14.70753) (xy 5.294771 -14.971129) (xy 5.402612 -14.971129) (xy 5.402612 -14.595972)
+					(xy 5.172203 -14.595972) (xy 5.172203 -14.44961) (xy 5.402612 -14.44961) (xy 5.402612 -14.080131)
+					(xy 5.294771 -14.080131) (xy 5.294771 -14.338052) (xy 4.944903 -14.338052) (xy 4.944903 -14.080131)
+					(xy 4.837063 -14.080131) (xy 4.837063 -14.44961) (xy 5.064362 -14.44961) (xy 5.064362 -14.595972)
+					(xy 4.837063 -14.595972) (xy 4.837063 -14.971129) (xy 4.944903 -14.971129) (xy 4.944903 -14.70753)
+				)
+			)
+			(polygon
+				(pts
+					(xy 6.067001 -14.080131) (xy 5.511925 -14.080131) (xy 5.511925 -14.191689) (xy 5.619766 -14.191689)
+					(xy 5.959161 -14.191689) (xy 5.959161 -14.859571) (xy 5.619766 -14.859571) (xy 5.619766 -14.191689)
+					(xy 5.511925 -14.191689) (xy 5.511925 -14.971129) (xy 6.067001 -14.971129)
+				)
+			)
+		)
+	)
+	(fp_text user "RST"
+		(at -4.995 -9.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cf03124c-14ca-4159-988e-0eae352a8b1f")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "RST" 0
+			(polygon
+				(pts
+					(xy -5.391997 -9.334946) (xy -5.577404 -9.334946) (xy -5.577404 -9.141689) (xy -5.391997 -9.141689)
+					(xy -5.391997 -9.030131) (xy -5.685244 -9.030131) (xy -5.685244 -9.334946) (xy -5.849705 -9.334946)
+					(xy -5.849705 -9.030131) (xy -5.957546 -9.030131) (xy -5.957546 -9.446504) (xy -5.849705 -9.446504)
+					(xy -5.499837 -9.446504) (xy -5.499837 -9.809571) (xy -5.849705 -9.809571) (xy -5.849705 -9.446504)
+					(xy -5.957546 -9.446504) (xy -5.957546 -9.921129) (xy -5.391997 -9.921129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.734971 -9.921129) (xy -4.734971 -9.809571) (xy -5.174843 -9.809571) (xy -5.174843 -9.534248)
+					(xy -4.734971 -9.534248) (xy -4.734971 -9.030131) (xy -5.282683 -9.030131) (xy -5.282683 -9.141689)
+					(xy -4.842812 -9.141689) (xy -4.842812 -9.422691) (xy -5.282683 -9.422691) (xy -5.282683 -9.921129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.035071 -9.921129) (xy -4.035071 -9.809571) (xy -4.275953 -9.809571) (xy -4.275953 -9.030131)
+					(xy -4.383794 -9.030131) (xy -4.383794 -9.809571) (xy -4.63204 -9.809571) (xy -4.63204 -9.921129)
+				)
+			)
+		)
+	)
+	(fp_text user "C6/5"
+		(at 4.705 3.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d8298959-e00d-474b-bb94-5034109cd938")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "C6/5" 0
+			(polygon
+				(pts
+					(xy 4.053048 2.62887) (xy 4.053048 2.740428) (xy 3.611049 2.740428) (xy 3.611049 3.40831) (xy 4.053048 3.40831)
+					(xy 4.053048 3.519868) (xy 3.503208 3.519868) (xy 3.503208 2.62887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.710237 2.740428) (xy 4.263001 2.740428) (xy 4.263001 2.945409) (xy 4.710237 2.945409) (xy 4.710237 3.519868)
+					(xy 4.155161 3.519868) (xy 4.155161 3.40831) (xy 4.263001 3.40831) (xy 4.602396 3.40831) (xy 4.602396 3.056967)
+					(xy 4.263001 3.056967) (xy 4.263001 3.40831) (xy 4.155161 3.40831) (xy 4.155161 2.62887) (xy 4.710237 2.62887)
+				)
+			)
+			(polygon
+				(pts
+					(xy 4.815459 3.519868) (xy 5.136199 2.62887) (xy 5.246821 2.62887) (xy 4.926082 3.519868)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.900901 2.62887) (xy 5.900901 2.740428) (xy 5.464139 2.740428) (xy 5.464139 3.015751) (xy 5.900901 3.015751)
+					(xy 5.900901 3.519868) (xy 5.356298 3.519868) (xy 5.356298 3.40831) (xy 5.793061 3.40831) (xy 5.793061 3.127308)
+					(xy 5.356298 3.127308) (xy 5.356298 2.62887)
+				)
+			)
+		)
+	)
+	(fp_text user "RAW"
+		(at -4.995 -14.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da854d95-ce15-4567-8165-1d8ccca9721a")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "RAW" 0
+			(polygon
+				(pts
+					(xy -5.422434 -14.434946) (xy -5.607841 -14.434946) (xy -5.607841 -14.241689) (xy -5.422434 -14.241689)
+					(xy -5.422434 -14.130131) (xy -5.715681 -14.130131) (xy -5.715681 -14.434946) (xy -5.880142 -14.434946)
+					(xy -5.880142 -14.130131) (xy -5.987983 -14.130131) (xy -5.987983 -14.546504) (xy -5.880142 -14.546504)
+					(xy -5.530274 -14.546504) (xy -5.530274 -14.909571) (xy -5.880142 -14.909571) (xy -5.880142 -14.546504)
+					(xy -5.987983 -14.546504) (xy -5.987983 -15.021129) (xy -5.422434 -15.021129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.747571 -14.130131) (xy -4.855412 -14.130131) (xy -4.855412 -14.440625) (xy -5.20528 -14.440625)
+					(xy -5.20528 -14.130131) (xy -5.31312 -14.130131) (xy -5.31312 -14.552183) (xy -5.20528 -14.552183)
+					(xy -4.855412 -14.552183) (xy -4.855412 -14.909571) (xy -5.20528 -14.909571) (xy -5.20528 -14.552183)
+					(xy -5.31312 -14.552183) (xy -5.31312 -15.021129) (xy -4.747571 -15.021129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.12082 -14.241689) (xy -4.12082 -15.021129) (xy -4.012979 -15.021129) (xy -4.012979 -14.130131)
+					(xy -4.638258 -14.130131) (xy -4.638258 -15.021129) (xy -4.530417 -15.021129) (xy -4.530417 -14.241689)
+					(xy -4.379539 -14.241689) (xy -4.379539 -15.021129) (xy -4.271698 -15.021129) (xy -4.271698 -14.241689)
+				)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at -4.995 -6.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e47e8759-b646-4744-a849-124df271862a")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "VCC" 0
+			(polygon
+				(pts
+					(xy -5.317703 -7.471129) (xy -5.317703 -7.359571) (xy -5.391015 -7.359571) (xy -5.391015 -6.580131)
+					(xy -5.946091 -6.580131) (xy -5.946091 -7.471129) (xy -5.83825 -7.471129) (xy -5.83825 -6.691689)
+					(xy -5.498855 -6.691689) (xy -5.498855 -7.471129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.693242 -7.471129) (xy -4.693242 -7.359571) (xy -5.135241 -7.359571) (xy -5.135241 -6.691689)
+					(xy -4.693242 -6.691689) (xy -4.693242 -6.580131) (xy -5.243082 -6.580131) (xy -5.243082 -7.471129)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.04129 -7.471129) (xy -4.04129 -7.359571) (xy -4.483289 -7.359571) (xy -4.483289 -6.691689)
+					(xy -4.04129 -6.691689) (xy -4.04129 -6.580131) (xy -4.591129 -6.580131) (xy -4.591129 -7.471129)
+				)
+			)
+		)
+	)
+	(fp_text user "A1/F6"
+		(at -4.395 0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f1bcd193-8cbe-45a8-ba35-17aa65fe2b97")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "A1/F6" 0
+			(polygon
+				(pts
+					(xy -5.368673 1.119868) (xy -5.476513 1.119868) (xy -5.476513 0.809374) (xy -5.826381 0.809374)
+					(xy -5.826381 1.119868) (xy -5.934222 1.119868) (xy -5.934222 0.697816) (xy -5.826381 0.697816)
+					(xy -5.476513 0.697816) (xy -5.476513 0.340428) (xy -5.826381 0.340428) (xy -5.826381 0.697816)
+					(xy -5.934222 0.697816) (xy -5.934222 0.22887) (xy -5.368673 0.22887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -5.133682 0.22887) (xy -4.88969 0.22887) (xy -4.88969 1.119868) (xy -4.997531 1.119868) (xy -4.997531 0.340428)
+					(xy -5.133682 0.340428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.599061 1.119868) (xy -4.278321 0.22887) (xy -4.167699 0.22887) (xy -4.488439 1.119868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.518855 0.22887) (xy -3.518855 0.340428) (xy -3.960854 0.340428) (xy -3.960854 0.615751)
+					(xy -3.518855 0.615751) (xy -3.518855 0.727308) (xy -3.960854 0.727308) (xy -3.960854 1.119868)
+					(xy -4.068695 1.119868) (xy -4.068695 0.22887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.861666 0.340428) (xy -3.308902 0.340428) (xy -3.308902 0.545409) (xy -2.861666 0.545409)
+					(xy -2.861666 1.119868) (xy -3.416742 1.119868) (xy -3.416742 1.00831) (xy -3.308902 1.00831) (xy -2.969507 1.00831)
+					(xy -2.969507 0.656967) (xy -3.308902 0.656967) (xy -3.308902 1.00831) (xy -3.416742 1.00831) (xy -3.416742 0.22887)
+					(xy -2.861666 0.22887)
+				)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 4.955 -9.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f86e7be0-0f33-4256-be1d-77625c8d38f7")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "GND" 0
+			(polygon
+				(pts
+					(xy 4.052838 -9.759571) (xy 4.052838 -9.091689) (xy 4.392233 -9.091689) (xy 4.392233 -9.372691)
+					(xy 4.220081 -9.372691) (xy 4.220081 -9.484248) (xy 4.500073 -9.484248) (xy 4.500073 -8.980131)
+					(xy 3.944997 -8.980131) (xy 3.944997 -9.871129) (xy 4.500073 -9.871129) (xy 4.500073 -9.759571)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.130752 -9.091689) (xy 5.130752 -9.871129) (xy 5.238593 -9.871129) (xy 5.238593 -8.980131)
+					(xy 4.872033 -8.980131) (xy 4.872033 -9.759571) (xy 4.721155 -9.759571) (xy 4.721155 -8.980131)
+					(xy 4.613314 -8.980131) (xy 4.613314 -9.871129) (xy 4.979874 -9.871129) (xy 4.979874 -9.091689)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.96173 -8.980131) (xy 5.349052 -8.980131) (xy 5.349052 -9.091689) (xy 5.406654 -9.091689)
+					(xy 5.514494 -9.091689) (xy 5.853889 -9.091689) (xy 5.853889 -9.759571) (xy 5.514494 -9.759571)
+					(xy 5.514494 -9.091689) (xy 5.406654 -9.091689) (xy 5.406654 -9.759571) (xy 5.349052 -9.759571)
+					(xy 5.349052 -9.871129) (xy 5.96173 -9.871129)
+				)
+			)
+		)
+	)
+	(fp_text user "16/B2"
+		(at -4.395 10.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9c670dc-ac1e-4cef-95fc-78058ab00173")
+		(effects
+			(font
+				(face "東亜重工 R")
+				(size 0.75 0.67)
+				(thickness 0.125)
+			)
+		)
+		(render_cache "16/B2" 0
+			(polygon
+				(pts
+					(xy -5.835709 10.42887) (xy -5.591718 10.42887) (xy -5.591718 11.319868) (xy -5.699559 11.319868)
+					(xy -5.699559 10.540428) (xy -5.835709 10.540428)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.740612 10.540428) (xy -5.187848 10.540428) (xy -5.187848 10.745409) (xy -4.740612 10.745409)
+					(xy -4.740612 11.319868) (xy -5.295688 11.319868) (xy -5.295688 11.20831) (xy -5.187848 11.20831)
+					(xy -4.848453 11.20831) (xy -4.848453 10.856967) (xy -5.187848 10.856967) (xy -5.187848 11.20831)
+					(xy -5.295688 11.20831) (xy -5.295688 10.42887) (xy -4.740612 10.42887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -4.63539 11.319868) (xy -4.31465 10.42887) (xy -4.204028 10.42887) (xy -4.524768 11.319868)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.494473 11.319868) (xy -4.110261 11.319868) (xy -4.110261 11.20831) (xy -4.052658 11.20831)
+					(xy -3.944818 11.20831) (xy -3.602314 11.20831) (xy -3.602314 10.927308) (xy -3.944818 10.927308)
+					(xy -3.944818 11.20831) (xy -4.052658 11.20831) (xy -4.052658 10.815751) (xy -3.944818 10.815751)
+					(xy -3.602314 10.815751) (xy -3.602314 10.540428) (xy -3.944818 10.540428) (xy -3.944818 10.815751)
+					(xy -4.052658 10.815751) (xy -4.052658 10.540428) (xy -4.110261 10.540428) (xy -4.110261 10.42887)
+					(xy -3.494473 10.42887)
+				)
+			)
+			(polygon
+				(pts
+					(xy -3.379105 10.42887) (xy -2.834502 10.42887) (xy -2.834502 10.927308) (xy -3.271264 10.927308)
+					(xy -3.271264 11.20831) (xy -2.834502 11.20831) (xy -2.834502 11.319868) (xy -3.379105 11.319868)
+					(xy -3.379105 10.815751) (xy -2.942343 10.815751) (xy -2.942343 10.540428) (xy -3.379105 10.540428)
+				)
+			)
+		)
+	)
+	(pad "0" thru_hole circle
+		(at 7.62 -17.018)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f5ddfb4-77a3-4797-b33c-2e51e3a0746c")
+	)
+	(pad "1" thru_hole circle
+		(at 7.6114 -14.478)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65f069eb-6ebe-45f3-be05-d0e406086b68")
+	)
+	(pad "2" thru_hole circle
+		(at 7.6114 -11.938)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e60859d0-508a-48ea-9377-dea29bc51e55")
+	)
+	(pad "3" thru_hole circle
+		(at 7.6114 -9.398)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5b13e02-77ee-42cb-bf7d-0d3ba40b94d0")
+	)
+	(pad "4" thru_hole circle
+		(at 7.6114 -6.858)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bb9b71a-6478-4b0f-b621-a045431bd503")
+	)
+	(pad "5" thru_hole circle
+		(at 7.6114 -4.318)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71ba5648-ac04-478d-915f-22fed39a5ea6")
+	)
+	(pad "6" thru_hole circle
+		(at 7.6114 -1.778)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b3023c21-3cd8-40b7-9846-b05a9aee1325")
+	)
+	(pad "7" thru_hole circle
+		(at 7.6114 0.762)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22d3b240-573d-4375-9bb6-c76918becb7b")
+	)
+	(pad "8" thru_hole circle
+		(at 7.6114 3.302)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be46f9c7-da52-43a4-9747-f6c8a4324f22")
+	)
+	(pad "9" thru_hole circle
+		(at 7.6114 5.842)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68b32527-d920-4eec-bd05-c42c59cf419f")
+	)
+	(pad "10" thru_hole circle
+		(at 7.6114 8.382)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35c6ff19-a908-4a63-9eb3-f42d3d214500")
+	)
+	(pad "11" thru_hole circle
+		(at 7.6114 10.922)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44f52104-c702-4730-8181-f2c6067f3e90")
+	)
+	(pad "12" thru_hole circle
+		(at 7.6114 13.462)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2039b70c-b89f-4d70-8b94-4fa1f9fb0d02")
+	)
+	(pad "13" thru_hole circle
+		(at -7.6086 13.462)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60eaaceb-c036-410e-b28c-8d37bc6b5d73")
+	)
+	(pad "14" thru_hole circle
+		(at -7.6086 10.922)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96434d25-b715-4fe2-9e18-db612712b62a")
+	)
+	(pad "15" thru_hole circle
+		(at -7.6086 8.382)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9fe5a65-faa9-4488-b28e-0ee40be161a0")
+	)
+	(pad "16" thru_hole circle
+		(at -7.6086 5.842)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e084925-b069-421d-ae18-19ee89fc3522")
+	)
+	(pad "17" thru_hole circle
+		(at -7.6086 3.302)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4624a448-d39f-4f01-a7c4-36247351c6ad")
+	)
+	(pad "18" thru_hole circle
+		(at -7.6086 0.762)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "492b078b-f19d-403b-a120-168cdfd8655f")
+	)
+	(pad "19" thru_hole circle
+		(at -7.6086 -1.778)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d337901-da6c-4f6b-8790-ac13735e8eb3")
+	)
+	(pad "20" thru_hole circle
+		(at -7.6086 -4.318)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcef5686-da7e-43a3-a76d-dcdf563db5c3")
+	)
+	(pad "21" thru_hole circle
+		(at -7.6086 -6.858)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c788a59a-6e3a-42d1-b65f-296df6e90b26")
+	)
+	(pad "22" thru_hole circle
+		(at -7.6086 -9.398)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3083dae3-2f53-498a-9afc-8fa01ca8c28b")
+	)
+	(pad "23" thru_hole circle
+		(at -7.6086 -11.938)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5b3706a-a544-458f-9fa5-3d9023ff079b")
+	)
+	(pad "24" thru_hole circle
+		(at -7.6086 -14.478)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b152c82-6977-451d-aaff-9b56bf39515c")
+	)
+	(pad "25" thru_hole circle
+		(at -7.62 -17.018)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1acb68ee-7091-4874-a981-f0c18159dbca")
+	)
+	(model "${KIPRJMOD}/kbd/kicad-packages3D/kbd.3dshapes/ProMicro.step"
+		(offset
+			(xyz 0 1.8 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
 )
