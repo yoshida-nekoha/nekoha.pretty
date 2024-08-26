@@ -384,7 +384,7 @@
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour allowed)
 			(footprints allowed)
 		)
@@ -419,9 +419,9 @@
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
